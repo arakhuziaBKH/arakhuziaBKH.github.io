@@ -1,6 +1,10 @@
-const text = document.querySelector("text");
-const button = document.querySelector("button");
+$(document).ready(function(){
+const text = $(".text");
+const button = $(".button");
 
-button.addEventListener("click",()=>{
-    navigator.clipboard.writeText(text.value);
+button.addEventListener("click", ()=>{
+    navigator.clipboard.writeText("hi");
+});
+
+
 });
