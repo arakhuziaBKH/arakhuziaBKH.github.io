@@ -8,3 +8,9 @@ div.wrapper{
     row-gap: 20px;
     background-color: var(--backgroumd-color);
 }
+
+div.wrapper > header.main-header{
+    background-clip: var(--primary-blue);
+    width:100%;
+    height: 15dvh;
+}
