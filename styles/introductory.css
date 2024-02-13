@@ -1,0 +1,9 @@
+section.introductory{
+    width: 100%;
+    min-height: 100dvh;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    justify-content: space-between;
+    column-gap: 2%;
+}
