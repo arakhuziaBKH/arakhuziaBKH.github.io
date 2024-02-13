@@ -30,3 +30,11 @@ header.main-header > ul.navbar.items{
     column-gap: 1%;
     padding: 1% 2%;
 }
+ul.navbar.items > li.item{
+    width: calc(100% / 5 - 1%);
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
