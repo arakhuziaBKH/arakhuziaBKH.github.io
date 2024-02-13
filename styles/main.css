@@ -38,7 +38,7 @@ ul.navbar.items > li.item{
     align-items: center;
     justify-content: center;
 }
-ul.items.navbar > li.item > a{
+ul.navbar.items > li.item > a{
     width: 100%;
     height: 100%;
     display: flex;
@@ -46,6 +46,6 @@ ul.items.navbar > li.item > a{
     align-items: center;
     justify-content: space-between;
 }
-ul.items.navbar > li.item > a > span{
+ul.navbar.items > li.item > a > span{
     color: var(--contrast-text-color);
 }
