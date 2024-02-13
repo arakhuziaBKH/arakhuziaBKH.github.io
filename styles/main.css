@@ -19,3 +19,13 @@ div.wrapper > header.main-header{
     align-items: center;
     justify-content: space-between;
 }
+
+header.main-header > ul.navbar.items{
+    width:60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 1%;
+    padding: 1% 2%;
+}
