@@ -19,6 +19,8 @@ div.wrapper > header.main-header{
     align-items: center;
     justify-content: space-between;
     color: var(--contrast-text-color);
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
 }
 
 header.main-header > ul.navbar.items{
