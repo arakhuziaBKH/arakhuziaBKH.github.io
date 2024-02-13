@@ -21,7 +21,7 @@ div.wrapper > header.main-header{
     color: var(--contrast-text-color);
     border-bottom-left-radius: 25%;
     border-bottom-right-radius: 25%;
-    box-shadow: .5px .5px 5px var(--box-shadow);
+    box-shadow: 1px 15px 10px 1px var(--box-shadow);
 }
 
 header.main-header > ul.navbar.items{
