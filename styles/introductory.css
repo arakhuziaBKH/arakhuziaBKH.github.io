@@ -5,7 +5,7 @@ section.introductory{
     flex-flow: row nowrap;
     align-items: stretch;
     justify-content: space-between;
-    column-gap: 2%;
+    column-gap: 5%;
     background-color: var(--secondary-background);
 }
 section.introductory > div.description{
@@ -17,4 +17,17 @@ section.introductory > div.description{
  justify-content: flex-start;
  row-gap: 5%;
 
+}
+
+section.introductory > picture{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+section.introductory > picture > img{
+    width: 60%;
 }
