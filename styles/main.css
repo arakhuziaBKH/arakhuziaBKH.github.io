@@ -6,5 +6,5 @@ div.wrapper{
     justify-content: space-between;
     align-items: stretch;
     row-gap: 20px;
-    background-color: var(--backgroumd-colorr);
+    background-color: var(--backgroumd-color);
 }
