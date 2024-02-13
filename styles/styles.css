@@ -22,6 +22,11 @@ a:focus{
     color: var(--text-color);
 }
 
+ul,
+li{
+    list-style-type: none;
+}
+
 html{
     font-size: 10px;
     font-family: 'iransans';
