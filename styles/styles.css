@@ -18,16 +18,30 @@ a:visited,
 a:active,
 a:focus{
     text-decoration: none;
-    color: inherit;
+    color: var(--text-color);
 }
 
 html{
     font-size: 10px;
     font-family: 'iransans';
     color: var(--text-color);
+    width: 100dvw;
+    min-height: 100dvh;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    justify-content: stretch;
 }
 
 body{
     direction: rtl;
     color-scheme: dark;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    justify-content: stretch;
+    overflow-x:hidden;
+    width: 100%;
+    height: 100%;
 }
