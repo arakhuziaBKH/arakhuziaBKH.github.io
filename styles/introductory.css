@@ -9,7 +9,7 @@ section.introductory{
     background-color: var(--secondary-background);
 }
 section.introductory > div.description{
- width: 45%;
+ width: 60%;
  height: 100%;
  display: flex;
  flex-flow: column nowrap;
@@ -20,7 +20,7 @@ section.introductory > div.description{
 }
 
 section.introductory > picture{
-    width: 45%;
+    width: 35%;
     height: 100%;
     display: flex;
     flex-flow: column nowrap;
@@ -29,5 +29,5 @@ section.introductory > picture{
     overflow: hidden;
 }
 section.introductory > picture > img{
-    width: 60%;
+    width: 80%;
 }
