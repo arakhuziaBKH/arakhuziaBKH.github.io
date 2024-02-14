@@ -22,6 +22,7 @@ div.wrapper > header.main-header{
     border-bottom-left-radius: 25%;
     border-bottom-right-radius: 25%;
     box-shadow: 1px 15px 10px 1px var(--box-shadow);
+    clip-path: polygon(0 23%, 0 0, 35% 0%, 65% 0%, 100% 0, 100% 26%, 100% 54%, 99% 90%, 86% 100%, 13% 100%, 0 90%, 0 64%);
 }
 
 header.main-header > ul.navbar.items{
