@@ -31,5 +31,11 @@ section.skills > div.skill{
     outline: 1px solid var(--primary-blue);
     background-image: url(../images/wp4325531-1.jpg);
     background-size: cover;
-    
+    background-repeat: no-repeat;
+    position: relative;
+}
+section.skills > div.skill > div.stars{
+    position: absolute;
+    top:2%;
+    right: 2%;
 }
