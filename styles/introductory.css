@@ -1,6 +1,6 @@
 section.introductory{
     width: 100%;
-    min-height: 100dvh;
+    height: 60dvh;
     display: flex;
     flex-flow: row nowrap;
     align-items: stretch;
