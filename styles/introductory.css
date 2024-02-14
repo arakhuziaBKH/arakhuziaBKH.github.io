@@ -9,6 +9,7 @@ section.introductory{
     background-color: var(--secondary-background);
     position: absolute;
     top: calc(7.5dvh);
+    padding : 10% 0 0 0;
 }
 section.introductory > div.description{
  width: 60%;
