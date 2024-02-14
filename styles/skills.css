@@ -29,5 +29,6 @@ section.skills > div.skill{
     flex-flow: column nowrap;
     border-radius: 50%;
     outline: 1px solid var(--primary-blue);
+    background-image: url(../images/wp4325531-1.jpg);
     
 }
