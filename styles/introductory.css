@@ -25,7 +25,7 @@ section.introductory > :is(h1, h4){
 }
 
 section.introductory > picture{
-    width: 65%;
+    width: 55%;
     height: 100%;
     display: flex;
     flex-flow: column nowrap;
