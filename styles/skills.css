@@ -18,3 +18,11 @@ section.skills > h2{
     justify-content: center;
     column-gap: 2%;
 }
+
+section.skills > div.skill{
+    max-width: 392px;
+    min-width:390px;
+    height: 88%;
+    display: flex;
+    flex-flow: column nowrap;
+}
