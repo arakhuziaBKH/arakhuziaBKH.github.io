@@ -8,7 +8,7 @@ section.introductory{
     column-gap: 5%;
     background-color: var(--secondary-background);
     position: absolute;
-    top: -20px;
+    top: 19px;
 }
 section.introductory > div.description{
  width: 60%;
