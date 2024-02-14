@@ -7,6 +7,8 @@ section.introductory{
     justify-content: space-between;
     column-gap: 5%;
     background-color: var(--secondary-background);
+    position: absolute;
+    top: -20px;
 }
 section.introductory > div.description{
  width: 60%;
@@ -29,5 +31,5 @@ section.introductory > picture{
     overflow: hidden;
 }
 section.introductory > picture > img{
-    width: 80%;
+    width: 90%;
 }
