@@ -23,6 +23,22 @@ section.skills > h2::before{
     content: " ";
     display: block;
     position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: translateX(-50%);
+    width: 35%;
+    height: 5%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 100%);
+}
+section.skills > h2::after{
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 35%;
+    height: 5%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 100%);
 }
 
 section.skills > div.skill{
