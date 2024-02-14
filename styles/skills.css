@@ -17,6 +17,12 @@ section.skills > h2{
     align-items: center;
     justify-content: center;
     column-gap: 2%;
+    position: relative;
+}
+section.skills > h2::before{
+    content: " ";
+    display: block;
+    position: absolute;
 }
 
 section.skills > div.skill{

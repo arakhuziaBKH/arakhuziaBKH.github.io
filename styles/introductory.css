@@ -10,14 +10,14 @@ section.introductory{
     padding : 10% 0 0 0;
 }
 section.introductory > div.description{
- width: 40%;
+ width: 50%;
  height: 100%;
  display: flex;
  flex-flow: column nowrap;
  align-items: flex-start;
  justify-content: flex-start;
  row-gap: 5%;
- padding: 0 2% 0 0;
+ padding: 0 0 2% 0;
 }
 section.introductory > :is(h1, h4){
     width: 100%;
@@ -25,7 +25,7 @@ section.introductory > :is(h1, h4){
 }
 
 section.introductory > picture{
-    width: 55%;
+    width: 50%;
     height: 100%;
     display: flex;
     flex-flow: column nowrap;
