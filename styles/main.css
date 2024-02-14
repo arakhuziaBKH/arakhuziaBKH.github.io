@@ -6,7 +6,7 @@ div.wrapper{
     justify-content: space-between;
     align-items: stretch;
     row-gap: 20px;
-    background-color: var(--backgroumd-color);
+    background-color: var(--secondary-backgroumd);
 }
 
 div.wrapper > header.main-header{

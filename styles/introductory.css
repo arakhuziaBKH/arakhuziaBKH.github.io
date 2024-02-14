@@ -8,7 +8,7 @@ section.introductory{
     column-gap: 5%;
     background-color: var(--secondary-background);
     position: absolute;
-    top: calc(19px + 7.5dvh);
+    top: calc(7.5dvh);
 }
 section.introductory > div.description{
  width: 60%;
@@ -18,7 +18,7 @@ section.introductory > div.description{
  align-items: flex-start;
  justify-content: flex-start;
  row-gap: 5%;
- padding 0 2% 0 0;
+ padding: 0 2% 0 0;
 }
 section.introductory > :is(h1, h4){
     width: 100%;
