@@ -25,7 +25,7 @@ section.skills  > h2 > span{
 }
 
 section.skills > div.skill{
-    width: calc(100% / 2 - 2%);
+    width: calc(100% / 2 - 5%);
     height: 30dvh;
     display: flex;
     flex-flow: column nowrap;
