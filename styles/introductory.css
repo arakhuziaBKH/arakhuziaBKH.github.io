@@ -31,7 +31,7 @@ section.introductory > h4{
 a.btn{
     width: 40dvw;
     height: 7.5dvh;
-    margin-block: 5dvh;
+    margin-block: 2.5dvh;
     outline: 1px solid var(--primary-blue);
     background: linear-gradient(90deg, rgba(0,126,255,1) 0%, rgba(0,187,255,1) 100%);
     border-radius: 1rem;
