@@ -31,7 +31,7 @@ section.skills > div.skill{
     display: flex;
     flex-flow: column nowrap;
     border-radius: 50%;
-    outline: 1px solid var(--primary-blue);
+    outline: 1px solid  blue;
     background-image: url(../images/wp4325531-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
