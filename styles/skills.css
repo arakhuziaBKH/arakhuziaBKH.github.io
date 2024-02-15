@@ -4,11 +4,11 @@ section.skills{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: space-between;
-    column-gap: 1%;
+    justify-content: center;
+    column-gap: 2%;
     row-gap: 2%;
     background-color: var(--background-color);
-    padding: 2% 0% 2% 0;
+    padding: 2% 2% 0% 2%;
 }
 
 section.skills > h2{
