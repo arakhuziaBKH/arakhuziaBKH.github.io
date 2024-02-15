@@ -37,7 +37,7 @@ html{
     color: var(--text-color);
     width: 100dvw;
     min-height: 100dvh;
-    overflow: hidden;
+    overflow-x: hidden;
     display: flex;
     flex-flow: column nowrap;
     align-items: stretch;
