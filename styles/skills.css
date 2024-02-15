@@ -60,8 +60,9 @@ section.skills > div.skill > div.stars{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: center;
+    column-gap: 2%;
+    width: 85%;
     height: 30%;
 }
 
