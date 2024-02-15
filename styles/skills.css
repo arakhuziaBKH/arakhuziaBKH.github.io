@@ -29,8 +29,11 @@ section.skills > div.skill{
     height: 40dvh;
     display: flex;
     flex-flow: column nowrap;
+    align-items: stretch;
+    justify-content: space-between;
     border-radius: 1dvw;
     outline: 1px solid var(--border-color);
+    box-shadow: 1px 1px 5px var(--border-color);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: relative;
