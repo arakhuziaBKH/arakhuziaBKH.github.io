@@ -18,3 +18,9 @@ section.projects > div.section-title{
     justify-content: center;
     column-gap: 2dvw;
 }
+
+section.projects > div.section-title > span{
+    font-weight: 400;
+    font-size: 3rem;
+}
+section.projects >
