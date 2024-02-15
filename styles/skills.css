@@ -27,7 +27,7 @@ section.skills  > h2 > span{
 section.skills > div.skill{
     max-width: 392px;
     min-width:390px;
-    height: 86%;
+    height: 81%;
     display: flex;
     flex-flow: column nowrap;
     border-radius: 50%;
