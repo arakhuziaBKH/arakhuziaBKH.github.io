@@ -48,6 +48,7 @@ section.skills > div.skill > picture{
 }
 section.skills > div.skill > picture > img{
     width: 100%;
+    height: 100%;
 }
 
 section.skills > div.skill > div.stars{
