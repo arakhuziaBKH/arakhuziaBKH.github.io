@@ -24,7 +24,7 @@ section.skills  > h2 > span{
     font-size:5dvw;
 }
 
-section.skills > div.skill.html{
+section.skills > div.skill{
     width: 100%;
     height: 81%;
     display: flex;
@@ -36,7 +36,7 @@ section.skills > div.skill.html{
     background-repeat: no-repeat;
     position: relative;
 }
-section.skills > div.html > div.stars{
+section.skills > div.skill > div.stars{
     position: relative;
     display: flex;
     flex-flow: row nowrap;
@@ -46,7 +46,7 @@ section.skills > div.html > div.stars{
     height: 20%;
 }
 
-section.skills > div.html > div.stras > span{
+section.skills > div.skill > div.stras > span{
     color: goldenrod;
     position: absolute;
     right: 2%;
