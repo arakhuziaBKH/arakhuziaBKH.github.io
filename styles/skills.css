@@ -65,7 +65,7 @@ section.skills > div.skill > div.stars{
     height: 30%;
 }
 
-section.skills > div.skill > div.stras > span{
+section.skills > div.skill > div.stras > span.star{
     color: goldenrod;
     position: absolute;
     right: 2%;
