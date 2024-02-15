@@ -20,6 +20,9 @@ section.skills > h2{
     column-gap: 2%;
     position: relative;
 }
+section.skills  > h2 > span{
+    font-size: 2dvw;
+}
 
 section.skills > div.skill{
     max-width: 392px;
