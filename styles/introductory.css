@@ -19,12 +19,12 @@ section.introductory > div.description{
  row-gap: 5%;
  padding: 0 0 2% 0;
 }
-section.introductory > :is(h1, h4){
+section.introductory > div.description :is(h1, h4){
     width: 100%;
     height: max-content;
     font-size: 5dvw;
 }
-section.introductory > h4{
+section.introductory > div.description > h4{
     font-size: 3dvw;
 }
 
