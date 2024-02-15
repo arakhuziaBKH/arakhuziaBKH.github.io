@@ -31,7 +31,7 @@ section.introductory > div.description > h4{
 a.btn{
     width: 40dvw;
     height: 7.5dvh;
-    margin-block: 2.5dvh;
+    margin-block: 1.5dvh;
     outline: 1px solid var(--primary-blue);
     background: linear-gradient(90deg, rgba(0,126,255,1) 0%, rgba(0,187,255,1) 100%);
     border-radius: 1rem;
@@ -42,8 +42,8 @@ a.btn{
     justify-content: center;
     font-size: 1.5rem;
     font-weight: 600;
-    box-shadow: 3px 0px 3px var(--primary-blue),
-                0px 3px 3px var(--primary-blue);
+    box-shadow: 3px 0px 10px var(--primary-blue),
+                0px 3px 10px var(--primary-blue);
 }
 
 section.introductory > picture{
