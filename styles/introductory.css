@@ -25,6 +25,16 @@ section.introductory > :is(h1, h4){
     font-size: 5dvw;
 }
 
+a.btn{
+    width: 20dvw;
+    height: 15dvh;
+    outline: 1px solid var(--primary-blue);
+    background: rgb(0,126,255);
+    background: linear-gradient(90deg, rgba(0,126,255,1) 0%, rgba(0,187,255,1) 100%);
+    border-radius: 1rem;
+
+}
+
 section.introductory > picture{
     width: 50%;
     height: 100%;
