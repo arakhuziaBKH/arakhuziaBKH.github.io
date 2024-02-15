@@ -8,7 +8,7 @@ section.skills{
     column-gap: 1%;
     row-gap: 2%;
     background-color: var(--background-color);
-    padding: 2% 0 0 0;
+    padding: 2% 1% 0 1%;
 }
 
 section.skills > h2{
