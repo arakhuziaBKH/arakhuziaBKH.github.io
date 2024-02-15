@@ -39,6 +39,8 @@ a.btn{
     justify-content: center;
     font-size: 1.5rem;
     font-weight: 600;
+    box-shadow: 10px 0px 10px var(--primary-blue),
+                0px 10px 10px var(--primary-blue);
 }
 
 section.introductory > picture{
