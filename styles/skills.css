@@ -26,14 +26,15 @@ section.skills  > h2 > span{
 
 section.skills > div.skill{
     width: calc(100% / 2 - 2%);
-    height: 40dvh;
+    height: 30dvh;
     display: flex;
     flex-flow: column nowrap;
     align-items: stretch;
     justify-content: space-between;
     border-radius: 1dvw;
     outline: 1px solid var(--border-color);
-    box-shadow: 1px 1px 5px var(--border-color);
+    box-shadow: 5px 1px 5px var(--border-color),
+                1px 5px 5px var(--border-color) ;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: relative;
