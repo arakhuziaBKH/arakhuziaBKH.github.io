@@ -35,8 +35,7 @@ section.skills > div.skill{
     outline: 1px solid var(--border-color);
     box-shadow: 5px 1px 5px var(--border-color),
                 1px 5px 5px var(--border-color) ;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-color: #fff;
     position: relative;
 }
 section.skills > div.skill > picture{
