@@ -22,7 +22,7 @@ section.introductory > div.description{
 section.introductory > :is(h1, h4){
     width: 100%;
     height: max-content;
-    font-size: 7dvw;
+    font-size: 5dvw;
 }
 
 section.introductory > picture{
