@@ -30,12 +30,26 @@ section.skills > div.skill{
     display: flex;
     flex-flow: column nowrap;
     border-radius: 1dvw;
-    outline: 1px solid  blue;
-    background-image: url(../images/wp4325531-1.jpg);
+    outline: 1px solid var(--border-color);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: relative;
 }
+section.skills > div.skill > picture{
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 1dvw;
+    border-top-left-radius: 1dvw;
+}
+section.skills > div.skill > picture > img{
+    width: 100%;
+}
+
 section.skills > div.skill > div.stars{
     position: relative;
     display: flex;
