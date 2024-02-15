@@ -2,4 +2,19 @@ section.projects{
     width: 100%;
     min-height: 40dvh;
     background-color: var(--background-color);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: center;
+    column-gap: 1dvw;
+    row-gap: 1dvh;
+    padding-inline: 2%;
+}
+section.projects > div.section-title{
+    width: 100%;
+    height: 10dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2dvw;
 }
