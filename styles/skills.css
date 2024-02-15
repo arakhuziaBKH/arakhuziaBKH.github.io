@@ -21,7 +21,7 @@ section.skills > h2{
     position: relative;
 }
 section.skills  > h2 > span{
-    font-size: 2dvw;
+    font-size:6dvw;
 }
 
 section.skills > div.skill{
