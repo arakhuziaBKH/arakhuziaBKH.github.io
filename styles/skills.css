@@ -5,9 +5,8 @@ section.skills{
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    column-gap: 1%;
-    row-gap: 2%;
-    row-gap: 2%;
+    column-gap: 1dvw;
+    row-gap: 2dvh;
     background-color: var(--background-color);
     padding: 2% 0% 2% 0;
 }
