@@ -43,6 +43,8 @@ section.projects > div.project > picture{
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    outline: 1px solid var(--border-color);
+    border-radius: 1.5rem;
 }
 section.projects > div.project > picture > img{
     width: 100%;
