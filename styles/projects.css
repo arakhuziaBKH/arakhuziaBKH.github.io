@@ -24,7 +24,7 @@ section.projects > div.section-title > span{
     font-weight: 400;
     font-size: 5rem;
 }
-section.projects > h1{
+section.projects > div.section-title > h1{
     font-size: 2.5dvw;
 }
 
