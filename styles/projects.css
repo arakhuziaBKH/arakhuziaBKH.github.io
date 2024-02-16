@@ -32,7 +32,7 @@ section.projects > div.project{
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: stretch;
-    width: 45dvh;
+    width: 45%;
     height: 40dvh;
 }
 
