@@ -38,6 +38,8 @@ section.projects > div.project{
     height: 40dvh;
     outline: 2.5px solid  var(--primary-blue);
     border-radius: 1.5rem;
+    box-shadow: .1px 0 20px var(--border-color),
+    0 .1px 20px var(--border-color);
 }
 
 section.projects > div.project > picture{
@@ -48,8 +50,6 @@ section.projects > div.project > picture{
     justify-content: center;
     overflow: hidden;
     outline: 1px solid var(--border-color);
-    box-shadow: .1px 0 20px var(--border-color),
-                0 .1px 20px var(--border-color);
     border-radius: 1.5rem;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
