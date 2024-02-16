@@ -34,6 +34,8 @@ section.projects > div.project{
     align-items: stretch;
     width: 45%;
     height: 40dvh;
+    outline: 1px solid  var(--border-color);
+    border-radius: 1.5rem;
 }
 
 section.projects > div.project > picture{
@@ -48,7 +50,7 @@ section.projects > div.project > picture{
                 0 .1px 20px var(--border-color);
     border-radius: 1.5rem;
     border-bottom-right-radius: 0;
-    
+
 }
 section.projects > div.project > picture > img{
     width: 100%;
@@ -62,6 +64,9 @@ section.projects > div.project > h2{
     flex-flow: column nowrap;
     align-items: center;
     justify-content: flex-end;
+    outline: 1px solid var(--border-color);
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
 }
 section.projects > div.project > h2 > a{
     width: 80%;
