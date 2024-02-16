@@ -39,7 +39,7 @@ section.projects > div.project{
     outline: 2.5px solid  var(--primary-blue);
     border-radius: 1.5rem;
     box-shadow: .1px 0 20px var(--border-color),
-    0 .1px 20px var(--border-color);
+                0 .1px 20px var(--border-color);
 }
 
 section.projects > div.project > picture{
