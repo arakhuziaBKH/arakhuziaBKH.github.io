@@ -26,3 +26,10 @@ section.projects > div.section-title > span{
 section.projects > h1{
     font-size: 5dvw;
 }
+
+section.projects > div.project{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
