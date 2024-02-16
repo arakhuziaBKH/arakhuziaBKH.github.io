@@ -36,7 +36,7 @@ section.projects > div.project{
     height: 40dvh;
 }
 
-section.projects > picture{
+section.projects > div.project > picture{
     width: 100%;
     height: 73%;
     display: flex;
@@ -44,7 +44,7 @@ section.projects > picture{
     justify-content: center;
     overflow: hidden;
 }
-section.projects > picture > img{
+section.projects > div.project > picture > img{
     width: 100%;
     height: 100%;
 }
