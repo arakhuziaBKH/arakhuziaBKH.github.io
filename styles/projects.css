@@ -35,8 +35,8 @@ section.projects > div.project{
     align-items: stretch;
     width: 96%;
     background-color: #fff;
-    height: 40dvh;
-    outline: 2.5px solid  var(--primary-blue);
+    height: 50dvh;
+    outline: 1.5px solid  var(--primary-blue);
     border-radius: 1.5rem;
     box-shadow: .1px 0 20px var(--border-color),
                 0 .1px 20px var(--border-color);
@@ -74,9 +74,10 @@ section.projects > div.project > h2{
 }
 section.projects > div.project > h2 > a{
     width: 80%;
-    height: 90%;
+    height: 80%;
     text-align: center;
     color: var(--primary-blue);
     font-size: 2rem;
     font-weight: 600;
+    padding-block: 2%;
 }
