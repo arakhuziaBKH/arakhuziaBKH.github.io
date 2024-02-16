@@ -9,6 +9,7 @@ section.projects{
     column-gap: 1dvw;
     row-gap: 1dvh;
     padding-inline: 2%;
+    padding-block: 1.5dvh;
 }
 section.projects > div.section-title{
     width: 100%;
