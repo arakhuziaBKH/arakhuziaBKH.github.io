@@ -47,6 +47,15 @@ a.btn{
                 0px .1px 20px var(--border-color);
 }
 
+a.btn:first-child{
+    animation-name: toRight;
+    animation-duration: 3s;
+}
+a.btn:last-of-type{
+    animation-name: toLeft;
+    animation-duration: 3s;
+}
+
 section.introductory > picture{
     width: 60%;
     height: 100%;
