@@ -83,7 +83,7 @@ section.skills > div.other-skills{
     padding: 2%;
     column-gap: 3%;
 }
-section.skills > div.other-skill > h2 > span:nth-child(2){
+section.skills > div.other-skills > h2 > span:nth-child(2){
     font-size: 1.5rem;
     font-weight: 600;
 }
