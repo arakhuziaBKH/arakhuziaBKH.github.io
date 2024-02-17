@@ -29,13 +29,13 @@ section.introductory > div.description :is(h1, h4){
 section.inteoductory > div.description > h1{
     animation-name: toLeft;
     animation-duration: 3s;
-    animation-delay: 5s;
+    animation-delay: 1s;
 }
 section.introductory > div.description > h4{
     font-size: 3dvw;
     animation-name: toRight;
     animation-duration: 3s;
-    animation-delay: 5s;
+    animation-delay: 1s;
 }
 
 a.btn{
@@ -59,13 +59,13 @@ a.btn{
 
 a.btn:first-child{
     animation-name: toRight;
-    animation-duration: 3s;
-    animation-delay: 8s;
+    animation-duration: 1s;
+    animation-delay: 3s;
 }
 a.btn:last-of-type{
     animation-name: toLeft;
-    animation-duration: 3s;
-    animation-delay: 8s;
+    animation-duration: 1s;
+    animation-delay: 3s;
 }
 
 section.introductory > picture{
