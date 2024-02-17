@@ -22,3 +22,16 @@ section.courses > div.section-title{
 section.courses > div.section-title > :is(span, h1){
     font-size: 4.5dvw;
 }
+
+section.courses > div.course{
+    width: 96%;
+    height: 50dvh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    justify-content: space-between;
+    row-gap: 2dvh;
+    border-radius: 1.5rem;
+    border: 2px solid var(--primary-blue);
+    box-shadow: 1px 1px 10px var(--border-color);
+}
