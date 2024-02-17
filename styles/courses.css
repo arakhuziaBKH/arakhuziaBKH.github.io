@@ -24,7 +24,7 @@ section.courses > div.section-title > :is(span, h1){
 }
 
 section.courses > div.course{
-    width: 96%;
+    width: 94%;
     height: 50dvh;
     display: flex;
     flex-flow: column nowrap;
@@ -35,6 +35,7 @@ section.courses > div.course{
     border: 2px solid var(--primary-blue);
     box-shadow: 1px 1px 10px var(--border-color);
     padding-block: 2%;
+    margin: 0 auto;
 }
 section.courses > div.course > picture{
     width: 90%;
