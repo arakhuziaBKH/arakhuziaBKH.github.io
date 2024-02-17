@@ -20,5 +20,5 @@ section.courses > div.section-title{
     column-gap: 2%;
 }
 section.courses > div.section-title > :is(span, h1){
-    font-size: 5rem;
+    font-size: 4.5dvw;
 }
