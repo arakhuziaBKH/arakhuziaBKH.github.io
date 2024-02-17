@@ -80,4 +80,9 @@ section.skills > div.other-skills{
     align-items: flex-start;
     justify-content: space-evenly;
     padding: 2%;
+    column-gap: 3%;
+}
+section.skills > div.other-skill > span:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: 600;
 }
