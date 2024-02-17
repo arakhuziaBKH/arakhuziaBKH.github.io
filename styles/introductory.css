@@ -58,9 +58,8 @@ a.btn{
 }
 
 a.btn:first-child{
-    animation-name: toLeft;
-    animation-duration: 1s;
-    animation-delay: 3s;
+    /* Copy code to element you want to animate */
+    animation: toLeft 1s ease-in-out 1s infinite normal none;
 }
 a.btn:last-child{
     animation-name: toLeft;
