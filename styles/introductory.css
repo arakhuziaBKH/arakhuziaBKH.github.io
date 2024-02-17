@@ -81,4 +81,5 @@ section.introductory > picture > img{
     width: 100%;
     animation-name: adminFigure;
     animation-duration: 5s;
+    filter: drop-shadow(1px 1px 10px var(--border-color));
 }
