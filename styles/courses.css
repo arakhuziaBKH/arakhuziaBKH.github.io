@@ -28,12 +28,13 @@ section.courses > div.course{
     height: 50dvh;
     display: flex;
     flex-flow: column nowrap;
-    align-items: stretch;
+    align-items: center;
     justify-content: space-between;
     row-gap: 2dvh;
     border-radius: 1.5rem;
     border: 2px solid var(--primary-blue);
     box-shadow: 1px 1px 10px var(--border-color);
+    padding-block: 2%;
 }
 section.courses > div.course > picture{
     width: 90%;
