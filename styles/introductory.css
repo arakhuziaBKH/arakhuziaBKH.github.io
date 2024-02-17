@@ -57,11 +57,11 @@ a.btn{
     position: relative;
 }
 
-a.btn:first-child{
+a.btn:nth-child(1){
     /* Copy code to element you want to animate */
     animation: toLeft 1s ease-in-out 1s infinite normal none;
 }
-a.btn:last-child{
+a.btn:nth-child(2){
     animation-name: toLeft;
     animation-duration: 1s;
     animation-delay: 4s;
