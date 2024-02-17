@@ -21,7 +21,7 @@
 
     100%{
         width: 35dvh;
-        right: 100%;
+        right: 0%;
         opacity: 1;
     }
 }
