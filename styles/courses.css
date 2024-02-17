@@ -17,4 +17,8 @@ section.courses > div.section-title{
     align-items: center;
     justify-content: center;
     padding-left: 2%;
+    column-gap: 2%;
+}
+section.courses > div.section-title > :is(span, h1){
+    font-size: 5rem;
 }
