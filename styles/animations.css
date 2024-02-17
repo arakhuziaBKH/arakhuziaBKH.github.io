@@ -1,15 +1,13 @@
 @keyframes adminFigure{
     0%{
-        right: -100%;
+        left: -100%;
         opacity: 0;
         width: 0;
-        height: 0;
     }
 
     100%{
-        right: 0;
+        left: 0;
         opacity:1;
-        width:100;
-        height: 100%;
+        width:100%;
     }
 }
