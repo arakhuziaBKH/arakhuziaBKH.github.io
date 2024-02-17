@@ -3,7 +3,7 @@ section.courses{
     min-height: 50dvh;
     display: flex;
     flex-flow: column nowrap;
-    align-items: stretch;
+    align-items: center;
     justify-content: space-between;
     row-gap: 2dvh;
     column-gap : 1.5dvw;
@@ -45,6 +45,9 @@ section.courses > div.course > picture{
     justify-content: center;
     border-radius: inherit;
     overflow: hidden;
+}
+section.courses > div.course > picture > img{
+    object-fit: contain;
 }
 section.courses > div.course > h2.card-title{
     width: 100%;
