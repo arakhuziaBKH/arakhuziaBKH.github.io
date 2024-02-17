@@ -29,7 +29,7 @@ section.introductory > div.description > h4{
 }
 
 a.btn{
-    width: 40dvw;
+    width: 30dvw;
     height: 7.5dvh;
     margin-block: 1.5dvh;
     outline: 1px solid var(--primary-blue);
