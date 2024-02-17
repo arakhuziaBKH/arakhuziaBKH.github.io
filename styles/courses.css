@@ -35,3 +35,13 @@ section.courses > div.course{
     border: 2px solid var(--primary-blue);
     box-shadow: 1px 1px 10px var(--border-color);
 }
+section.courses > div.course > picture{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    font-family: column no wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: inherit;
+    overflow: hidden;
+}
