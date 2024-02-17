@@ -14,13 +14,11 @@
 
 @keyframes toRight{
     0%{
-       width: 0;
        right: -100%;
        opacity: 0;
     }
 
     100%{
-        width: 35dvh;
         right: 0%;
         opacity: 1;
     }
@@ -28,13 +26,11 @@
 
 @keyframes  toLeft{
     0%{
-        width:0;
         left:-100%;
         opacity:0;
     }
 
     100%{
-        width: 35dvh;
         left:0%;
         opacity: 1;
     }
