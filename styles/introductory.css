@@ -20,13 +20,22 @@ section.introductory > div.description{
  padding: 0 0 2% 0;
  position: relative;
 }
+
 section.introductory > div.description :is(h1, h4){
     width: 100%;
     height: max-content;
     font-size: 5dvw;
 }
+section.inteoductory > div.description > h1{
+    animation-name: toLeft;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
 section.introductory > div.description > h4{
     font-size: 3dvw;
+    animation-name: toRight;
+    animation-duration: 3s;
+    animation-delay: 5s;
 }
 
 a.btn{
@@ -50,10 +59,12 @@ a.btn{
 a.btn:first-child{
     animation-name: toRight;
     animation-duration: 3s;
+    animation-delay: 8s;
 }
 a.btn:last-of-type{
     animation-name: toLeft;
     animation-duration: 3s;
+    animation-delay: 8s;
 }
 
 section.introductory > picture{
