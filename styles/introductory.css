@@ -54,7 +54,10 @@ section.introductory > picture{
     align-items: flex-end;
     justify-content: flex-start;
     overflow: hidden;
+    position: relative;
 }
 section.introductory > picture > img{
     width: 100%;
+    animation-name: adminFigure;
+    animation-duration: 5s;
 }
