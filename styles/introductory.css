@@ -54,6 +54,7 @@ a.btn{
     font-weight: 600;
     box-shadow: .1px 0px 20px var(--border-color),
                 0px .1px 20px var(--border-color);
+    position: relative;
 }
 
 a.btn:first-child{
