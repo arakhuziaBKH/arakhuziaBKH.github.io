@@ -59,12 +59,11 @@ a.btn{
 
 a.btn:nth-child(1){
     /* Copy code to element you want to animate */
-    animation: toLeft 1s ease-in-out 1s infinite normal none;
+    animation: toLeft ease-in-out 1s infinite normal none;
 }
 a.btn:nth-child(2){
     animation-name: toLeft;
     animation-duration: 1s;
-    animation-delay: 4s;
 }
 
 section.introductory > picture{
@@ -80,6 +79,6 @@ section.introductory > picture{
 section.introductory > picture > img{
     width: 100%;
     animation-name: adminFigure;
-    animation-duration: 1.5s;
+    animation-duration: 3s;
     filter: drop-shadow(1px 1px 10px var(--border-color));
 }
