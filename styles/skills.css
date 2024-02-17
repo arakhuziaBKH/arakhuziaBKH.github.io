@@ -73,6 +73,7 @@ section.skills > div.skill > div.stras > span.star{
 }
 
 section.skills > div.other-skills{
+    direction: ltr;
     width: 100%;
     height: 30dvh;
     display: flex;
