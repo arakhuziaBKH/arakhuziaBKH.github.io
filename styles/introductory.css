@@ -34,8 +34,8 @@ section.inteoductory > div.description > h1{
 section.introductory > div.description > h4{
     font-size: 3dvw;
     animation-name: toRight;
-    animation-duration: 3s;
-    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-delay: 2s;
 }
 
 a.btn{
@@ -58,7 +58,7 @@ a.btn{
 }
 
 a.btn:first-child{
-    animation-name: toRight;
+    animation-name: toLeft;
     animation-duration: 1s;
     animation-delay: 3s;
 }
