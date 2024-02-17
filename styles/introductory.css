@@ -62,10 +62,10 @@ a.btn:first-child{
     animation-duration: 1s;
     animation-delay: 3s;
 }
-a.btn:last-of-type{
+a.btn:last-child{
     animation-name: toLeft;
     animation-duration: 1s;
-    animation-delay: 3s;
+    animation-delay: 4s;
 }
 
 section.introductory > picture{
