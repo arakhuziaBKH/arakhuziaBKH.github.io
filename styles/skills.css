@@ -71,3 +71,12 @@ section.skills > div.skill > div.stras > span.star{
     right: 2%;
     top: 2%;
 }
+
+section.skills > div.other-skills{
+    width: 100%;
+    height: 30dvh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
