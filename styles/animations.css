@@ -15,11 +15,11 @@
 /* Copy this code after the above code */
 @keyframes toRight {
   0% {
-  	    transform: translateX(0);
+  	    transform: translateX(100px);
      }
 
    100% {
-        	transform: translateX(100px);
+        	transform: translateX(0px);
         }
 }
 
