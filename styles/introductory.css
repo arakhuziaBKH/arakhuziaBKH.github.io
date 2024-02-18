@@ -25,6 +25,7 @@ section.introductory > div.description :is(h1, h4){
     width: 100%;
     height: max-content;
     font-size: 5dvw;
+    position: relative; 
 }
 section.inteoductory > div.description > h1{
     -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
