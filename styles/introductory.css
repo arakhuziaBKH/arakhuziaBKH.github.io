@@ -27,15 +27,14 @@ section.introductory > div.description :is(h1, h4){
     font-size: 5dvw;
 }
 section.inteoductory > div.description > h1{
-    animation-name: toLeft;
-    animation-duration: 3s;
-    animation-delay: 1s;
+    -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
+
 section.introductory > div.description > h4{
     font-size: 3dvw;
-    animation-name: toRight;
-    animation-duration: 1s;
-    animation-delay: 2s;
+    -webkit-animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
 a.btn{
@@ -58,12 +57,12 @@ a.btn{
 }
 
 a.btn:nth-child(1){
-    /* Copy code to element you want to animate */
-    animation: toLeft ease-in-out 1s infinite normal none;
+    -webkit-animation: slide-in-bck-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-bck-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 a.btn:nth-child(2){
-    animation-name: toLeft;
-    animation-duration: 1s;
+    -webkit-animation: puff-in-hor 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+    animation: puff-in-hor 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
 
 section.introductory > picture{
