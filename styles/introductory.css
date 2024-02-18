@@ -25,7 +25,7 @@ section.introductory > div.description :is(h1, h4){
     width: 100%;
     height: max-content;
     font-size: 5dvw;
-    position: relative; 
+    position: absolute; 
     text-wrap: nowrap;
 }
 section.inteoductory > div.description > h1{
@@ -79,6 +79,7 @@ section.introductory > picture{
 }
 section.introductory > picture > img{
     width: 100%;
+    -webkit-filter: drop-shadow(-3px 8px 13px #2e2e2e);
     filter: drop-shadow(-3px 8px 13px #2e2e2e);
     -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
