@@ -77,7 +77,8 @@ section.introductory > picture{
 }
 section.introductory > picture > img{
     width: 100%;
-    animation-name: adminFigure;
-    animation-duration: 3s;
     filter: drop-shadow(1px 1px 10px var(--border-color));
+
+    -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
