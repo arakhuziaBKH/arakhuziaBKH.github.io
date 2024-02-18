@@ -13,8 +13,8 @@
 */
 @-webkit-keyframes slide-in-right {
 0% {
--webkit-transform: translateX(-36dvw);
-transform: translateX(-36dvw);
+-webkit-transform: translateX(36dvw);
+transform: translateX(36dvw);
 opacity: 0;
 }
 100% {
