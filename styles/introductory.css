@@ -28,7 +28,7 @@ section.introductory > div.description :is(h1, h4){
     text-wrap: nowrap;
 }
 section.introductory > div.description > h1{
-    -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    -webkit-animation: tracking-in-contract-bck 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
