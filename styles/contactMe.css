@@ -56,7 +56,15 @@ section.contactMe > div.contact-information > div{
     width: 100%;
     height: calc(100% / 3);
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: row nowrap;
     align-items: stretch;
-    justify-content: center;
+    justify-content: flex-start;
+}
+section.contactMe > div.contact-information > div a{
+    display: felx;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 3%;
+
 }
