@@ -65,6 +65,7 @@ a.contactMe-button{
 a.projects-button {
     -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation-delay: .5s;
 }
 
 section.introductory > picture{
@@ -81,6 +82,6 @@ section.introductory > picture > img{
     width: 100%;
     -webkit-filter: drop-shadow(-3px 8px 13px #2e2e2e);
     filter: drop-shadow(-3px 8px 13px #2e2e2e);
-    -webkit-animation: slide-in-right 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: slide-in-right 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    -webkit-animation: slide-in-left 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-left 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
