@@ -60,11 +60,19 @@ section.contactMe > div.contact-information > div{
     align-items: stretch;
     justify-content: flex-start;
 }
-section.contactMe > div.contact-information > div a{
+section.contactMe > div.contact-information > div > a{
     display: felx;
     flex-flow: row nowrap;
     align-items: center;
     justify-content: flex-start;
     column-gap: 3%;
 
+}
+
+section.contactMe > div.contact-information > div.address > address > a{
+    display: felx;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 3%;
 }
