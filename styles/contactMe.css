@@ -1,0 +1,10 @@
+section.contactMe{
+    width: 100%;
+    min-height: 50dvh;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    row-gap: 1dvh;
+}
