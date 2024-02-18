@@ -41,3 +41,14 @@ section.contactMe > div.socials > a{
 section.contactMe > div.socials > a > img{
     width: 70%;
 }
+
+section.contactMe > div.contact-information{
+    width: 100%;
+    height: 25dvh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+    row-gap: 1dvh;
+    padding: 2%;
+}
