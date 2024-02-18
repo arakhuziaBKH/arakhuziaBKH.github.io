@@ -8,6 +8,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="scripts/scripts.js"></script>
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,200,1,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -56,7 +57,7 @@
         </header>
 
 
-        <section class="introductory">
+        <section class="introductory" data-aos="fade-up" data-aos-anchor=".other-element">
             <div class="description">
                 <h1>علی محمد بختیاری</h1>
                 <h4>طراح و برنامه نویس وب</h4>
@@ -69,7 +70,7 @@
             </picture>
         </section>
 
-        <section class="skills">
+        <section class="skills" data-aos="fade-up" data-aos-anchor=".other-element">
             <h2 class="section-title">
                 <span class="material-symbols-rounded">badge</span>
                 <span>مهارت ها</span>
@@ -132,7 +133,7 @@
 
         </section>
 
-        <section class="projects" id="projects">
+        <section class="projects" id="projects"   data-aos="fade-up" data-aos-anchor=".other-element">
             <div class="section-title">
                 <span class="material-symbols-rounded">            dashboard            </span>
                 <h1>نمونه کارها</h1>
@@ -163,7 +164,7 @@
             </div>
         </section>
 
-        <section class="courses">
+        <section class="courses"  data-aos="fade-up" data-aos-anchor=".other-element">
             <div class="section-title">
                 <span class="material-symbols-rounded">                menu_book                </span>
                 <h1>دوره ها</h1>
@@ -189,5 +190,9 @@
             </div>
         </section>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+          AOS.init();
+    </script>
 </body>
 </html
