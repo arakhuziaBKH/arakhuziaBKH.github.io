@@ -52,3 +52,11 @@ section.contactMe > div.contact-information{
     row-gap: 1dvh;
     padding: 2%;
 }
+section.contactMe > div.contact-information > div{
+    width: 100%;
+    height: calc(100% / 3);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    justify-content: center;
+}
