@@ -61,8 +61,8 @@ ul.navbar.items > li.item > a > span{
 }
 ul.navbar.items > li.item > a > span:first-child{
     font-size: 8dvw;
-    -webkit-box-shadow: 1px 1px 10px var(--border-color);
-    box-shadow: 1px 1px 10px var(--border-color);
+    -webkit-filter:drop-shadow(1px 1px 10px var(--border-color));
+    filter:drop-shadow(1px 1px 10px var(--border-color));
 }
 ul.navbar.items > li.item > a > span:nth-child(2){
     display: none;
