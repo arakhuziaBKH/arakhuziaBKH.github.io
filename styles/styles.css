@@ -32,7 +32,7 @@ li{
 }
 
 html{
-    font-size: clamp(24px, 4dvw, 40px);
+    font-size: clamp(24px, 4dvw, 2dvwpx);
     font-family: 'iransans';
     color: var(--text-color);
     width: 100dvw;
