@@ -49,6 +49,7 @@ section.courses > div.course > picture{
 }
 section.courses > div.course > picture > img{
     object-fit: contain;
+    width: 100%;
 }
 section.courses > div.course > h2.card-title{
     width: 100%;
