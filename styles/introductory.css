@@ -95,5 +95,5 @@ section.introductory > picture > img{
     -webkit-animation: slide-in-left 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: slide-in-left 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     -webkit-filter: saturate(8);
-    filter: saturate(4);
+    filter: saturate(2);
 }

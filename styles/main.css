@@ -34,7 +34,7 @@ header.main-header > ul.navbar.items{
     padding: 1% 2%;
 }
 ul.navbar.items > li.item{
-    width: calc(100% / 4);
+    width: calc(100% / 3);
     height: 100%;
     display: flex;
     flex-flow: row nowrap;
@@ -57,5 +57,5 @@ ul.navbar.items > li.item > a > span{
     widows: 100%;
 }
 ul.navbar.items > li.item > a > span:first-child{
-    font-size: 2dvw;
+    font-size: 6dvw;
 }
