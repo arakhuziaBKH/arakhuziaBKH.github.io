@@ -74,10 +74,11 @@ ul.navbar.items > li.item:focus  > a > span:nth-child(2){
     display: block;
 }
 ul.navbar.items > li.item:is(:hover, :active),
-ul.navbar.items > li.item:focus > li.item:hover{
+ul.navbar.items > li.item:focus >{
     border-radius: 1rem;
     background-color: #fff;
     color: #000;
+    box-shadow: 1px 1px 10px var(--border-color);
 }
 
 ul.navbar.items > li.item:is(:hover, :active)  > a > span,
