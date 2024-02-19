@@ -54,7 +54,8 @@ ul.navbar.items > li.item > a{
 ul.navbar.items > li.item > a > span{
     color: var(--contrast-text-color);
     font-size: 1.5rem;
+    widows: 100%;
 }
 ul.navbar.items > li.item > a > span:first-child{
-    font-size: 2rem;
+    font-size: 2dvw;
 }
