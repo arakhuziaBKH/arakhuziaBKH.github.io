@@ -78,6 +78,6 @@ ul.navbar.items > li.item:focus > li.item:hover{
 }
 
 ul.navbar.items > li.item:is(:hover, :active) > li.item:hover > a > span,
-ul.navbar.items > li.item:focus > li.item:hover > a > span:nth-child(2){
-    display: none;
+ul.navbar.items > li.item:focus > li.item:hover > a > span{
+    color: #333;
 }
