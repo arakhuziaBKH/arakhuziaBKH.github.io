@@ -42,6 +42,7 @@ html{
     flex-flow: column nowrap;
     align-items: stretch;
     justify-content: stretch;
+    scroll-behavior: smooth;
 }
 
 body{
