@@ -20,8 +20,8 @@ div.wrapper > header.main-header{
     justify-content: center;
     column-gap: 2%;
     color: var(--contrast-text-color);
-    border-bottom-left-radius: 15%;
-    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     box-shadow: 1px 15px 10px 1px var(--box-shadow);
     -webkit-box-shadow: 1px 15px 10px 1px var(--box-shadow);
 }
