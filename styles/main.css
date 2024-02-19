@@ -53,6 +53,7 @@ ul.navbar.items > li.item > a{
     align-items: center;
     justify-content: flex-start;
     row-gap: 1%;
+    padding: 1%;
 }
 ul.navbar.items > li.item > a > span{
     color: var(--contrast-text-color);
