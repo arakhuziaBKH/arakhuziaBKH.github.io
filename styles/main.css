@@ -15,9 +15,9 @@ div.wrapper > header.main-header{
     height: 9.5dvh;
     padding: 0 2%;
     display: flex;
-    flex-flow: row nowrap;
-    align-items: flex-end;
-    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content:flex-end;
     column-gap: 2%;
     color: var(--contrast-text-color);
     border-bottom-left-radius: 50%;
@@ -31,10 +31,10 @@ header.main-header > ul.navbar.items{
     height: 90%;
     display: flex;
     flex-flow: row nowrap;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     column-gap: 2%;
-    padding: 1% 2%;
+    padding: 2% 2% 0 2%;
 }
 ul.navbar.items > li.item{
     width: calc(100% / 3);
