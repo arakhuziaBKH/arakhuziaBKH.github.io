@@ -67,5 +67,11 @@ ul.navbar.items > li.item > a > span:nth-child(2){
 }
 ul.navbar.items:is(:hover, :active) > li.item:hover > a > span:nth-child(2),
 ul.navbar.items:focus > li.item:hover > a > span:nth-child(2){
-    display: none;
+    display: block;
+}
+ul.navbar.items:is(:hover, :active) > li.item:hover,
+ul.navbar.items:focus > li.item:hover{
+    border-radius: 1rem;
+    background-color: #fff;
+    color: #000;
 }
