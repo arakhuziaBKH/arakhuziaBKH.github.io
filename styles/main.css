@@ -46,10 +46,10 @@ ul.navbar.items > li.item > a{
     width: 100%;
     height: 100%;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     align-items: center;
     justify-content: flex-start;
-    column-gap: 1%;
+    row-gap: 1%;
 }
 ul.navbar.items > li.item > a > span{
     color: var(--contrast-text-color);
