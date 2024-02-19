@@ -37,7 +37,7 @@ header.main-header > ul.navbar.items{
     padding: 2% 2% 0 2%;
 }
 ul.navbar.items > li.item{
-    width: calc(100% / 3);
+    width: calc(100% / 3.5);
     height: 90%;
     display: flex;
     flex-flow: row nowrap;
