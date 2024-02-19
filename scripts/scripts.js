@@ -65,7 +65,7 @@ anchorPlacement: 'top-bottom', // defines which position of the element regardin
 //
 //
 //
-$('a')
+$('a.btn')
 // Remove links that don't actually link to anything
 .not('[href="#"]')
 .not('[href="#0"]')
