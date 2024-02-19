@@ -65,13 +65,19 @@ ul.navbar.items > li.item > a > span:first-child{
 ul.navbar.items > li.item > a > span:nth-child(2){
     display: none;
 }
-ul.navbar.items:is(:hover, :active) > li.item:hover > a > span:nth-child(2),
-ul.navbar.items:focus > li.item:hover > a > span:nth-child(2){
+
+ul.navbar.items > li.item:is(:hover, :active) > li.item:hover > a > span:nth-child(2),
+ul.navbar.items > li.item:focus > li.item:hover > a > span:nth-child(2){
     display: block;
 }
-ul.navbar.items:is(:hover, :active) > li.item:hover,
-ul.navbar.items:focus > li.item:hover{
+ul.navbar.items > li.item:is(:hover, :active) > li.item:hover,
+ul.navbar.items > li.item:focus > li.item:hover{
     border-radius: 1rem;
     background-color: #fff;
     color: #000;
+}
+
+ul.navbar.items > li.item:is(:hover, :active) > li.item:hover > a > span,
+ul.navbar.items > li.item:focus > li.item:hover > a > span:nth-child(2){
+    display: none;
 }
