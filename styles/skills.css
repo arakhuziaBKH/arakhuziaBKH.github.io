@@ -8,6 +8,8 @@ section.skills{
     column-gap: 3dvw;
     row-gap: 2dvh;
     padding: 2% 0% 2% 0;
+    background: rgb(255,163,0);
+    background: linear-gradient(300deg, rgba(255,163,0,0.3859897465466364) 0%, rgba(255,191,3,0) 55%, rgba(10,8,1,0.3326505242961727) 100%);
 }
 
 section.skills > div.skill{
