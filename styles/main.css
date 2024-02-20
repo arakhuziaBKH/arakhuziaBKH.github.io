@@ -60,7 +60,7 @@ ul.navbar.items > li.item > a > span{
     color: var(--contrast-text-color);
     font-size: 1.5rem;
     width: 100%;
-    height: 40%;
+    height: max-content;
 }
 ul.navbar.items > li.item > a > span:first-child{
     font-size: 8dvw;
