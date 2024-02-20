@@ -13,7 +13,7 @@ div.section-title > span::before{
     height: 2dvh;
     content: " ";
     position: absolute;
-    top: -1%;
+    top: 100%;
     right: 5%;
     border-bottom : 1px dotted #234;
     -webkit-background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
