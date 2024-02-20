@@ -24,6 +24,13 @@ div.section-title > span::before{
 }
 
 
+div.section-title > span{
+    font-size: 2dvw;
+}
+
+div.section-title > h1
+
+
 
 
 div.section-title > h1::after{
