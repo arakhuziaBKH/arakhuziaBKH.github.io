@@ -111,7 +111,7 @@ anchorPlacement: 'top-bottom', // defines which position of the element regardin
 document.addEventListener("visibilitychange", ()=>{
     if(document.visibilityState === "hidden"){
         const data = JSON.stringify({spent: 3600});
-        Navigator.sendBeacon("/log", data);
+        navigator.sendBeacon('/log', data);
     }
 });
 
