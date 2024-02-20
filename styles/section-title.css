@@ -36,6 +36,6 @@ div.section-title > h1::after{
     -webkit-background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
     background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
     background-position: top;
-    background-size: 13px 4px;
+    background-size: 13px 6px;
     background-repeat: repeat-x;
 }
