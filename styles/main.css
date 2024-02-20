@@ -23,8 +23,8 @@ div.wrapper > header.main-header{
     box-shadow: .5px .5px 5px rgba(255, 183, 0, 100%);
     border-bottom: 1px solid rgba(243, 114, 44, 100%);
     background-color: rgba(255, 183, 0, 100%);
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 
 header.main-header > ul.navbar.items{
