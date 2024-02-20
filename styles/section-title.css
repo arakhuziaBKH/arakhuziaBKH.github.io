@@ -25,10 +25,13 @@ div.section-title > span::before{
 
 
 div.section-title > span{
-    font-size: 2dvw;
+    font-size: 4dvw;
 }
 
-div.section-title > h1
+div.section-title > h1{
+    font-size: 3dvw;
+    font-weight: 600;
+}
 
 
 
