@@ -14,12 +14,12 @@ div.section-title > span::before{
     height: 2dvh;
     content: " ";
     position: absolute;
-    top: 1%;
+    top: 48%;
     right: 5%;
     -webkit-background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
     background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
     background-position: top;
-    background-size: 13px 4px;
+    background-size: 25px 4px;
     background-repeat: repeat-x;
 }
 
@@ -31,11 +31,11 @@ div.section-title > h1::after{
     height: 2dvh;
     content: " ";
     position: absolute;
-    top: 50%;
+    top: 48%;
     left: 5%;
     -webkit-background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
     background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
     background-position: top;
-    background-size: 13px 6px;
+    background-size: 25px 4px;
     background-repeat: repeat-x;
 }
