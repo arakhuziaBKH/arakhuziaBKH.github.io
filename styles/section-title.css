@@ -16,8 +16,4 @@ div.section-title > span::before{
     top: -10%;
     right: 10%;
     border-bottom : 1px dotted #234;
-    background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
-    background-position: top;
-    background-size: 9px 2px;
-    background-repeat: repeat-x;
 }
