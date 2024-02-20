@@ -11,19 +11,6 @@ section.skills{
     padding: 2% 0% 2% 0;
 }
 
-section.skills > h2{
-    width: 100%;
-    height: 10dvh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 2%;
-    position: relative;
-}
-section.skills  > h2 > span{
-    font-size:5dvw;
-}
-
 section.skills > div.skill{
     width: calc(100% / 2 - 5%);
     height: 30dvh;
