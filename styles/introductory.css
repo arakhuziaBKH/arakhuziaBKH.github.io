@@ -7,6 +7,9 @@ section.introductory{
     justify-content: space-between;
     column-gap: 5%;
     padding : 10% 0 0 0;
+    background: rgb(255,222,7);
+    -webkit-background: linear-gradient(145deg, rgba(255,222,7,0.3326505242961727) 0%, rgba(255,191,3,0) 52%, rgba(255,163,0,0.3859897465466364) 100%);
+    background: linear-gradient(145deg, rgba(255,222,7,0.3326505242961727) 0%, rgba(255,191,3,0) 52%, rgba(255,163,0,0.3859897465466364) 100%);
 }
 section.introductory > div.description{
  width: 40%;
