@@ -64,12 +64,12 @@ ul.navbar.items > li.item > a > span{
     height: max-content;
 }
 ul.navbar.items > li.item > a > span:first-child{
-    font-size: 8dvw;
+    font-size: 10dvw;
     -webkit-filter:drop-shadow(1px 1px 10px var(--border-color));
     filter:drop-shadow(1px 1px 10px var(--border-color));
 }
 ul.navbar.items > li.item > a > span:nth-child(2){
-    display: none;
+    /* display: none; */
 }
 
 ul.navbar.items > li.item:is(:hover, :active) > a > span:nth-child(2),
