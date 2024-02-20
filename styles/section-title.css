@@ -20,6 +20,24 @@ div.section-title > span::before{
     -webkit-background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
     background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
     background-position: top;
-    background-size: 9px 2px;
+    background-size: 18px 4px;
+    background-repeat: repeat-x;
+}
+
+
+
+
+div.section-title > h1::after{
+    width: 25dvw;
+    height: 2dvh;
+    content: " ";
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border-bottom : 1px dotted #234;
+    -webkit-background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
+    background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
+    background-position: top;
+    background-size: 18px 4px;
     background-repeat: repeat-x;
 }
