@@ -1,7 +1,6 @@
 section.projects{
     width: 100%;
     min-height: 40dvh;
-    background-color: var(--background-color);
     display: flex;
     flex-flow: row wrap;
     align-items: stretch;

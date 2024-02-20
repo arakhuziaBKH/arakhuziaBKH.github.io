@@ -7,7 +7,6 @@ section.courses{
     justify-content: space-between;
     row-gap: 2dvh;
     column-gap : 1.5dvw;
-    background-color: var(--secondary-background);
 }
 
 section.courses > div.course{
