@@ -25,7 +25,7 @@ div.section-title > span::before{
 
 
 div.section-title > span{
-    font-size: calc(4dvw, 8dvw, 12dvw);
+    font-size: clamp(4dvw, 8dvw, 12dvw);
 }
 
 div.section-title > h1{
