@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    import * from "madule";
+    import  "madule";
     $("#contactMe").on("click", function(e){
         Notification.requestPermission().then(permissions => {
             if (permission === "granted"){
