@@ -7,6 +7,7 @@ div.wrapper{
     align-items: stretch;
     row-gap: 20px;
     background-color: var(--secondary-background);
+    animation: gradient-animation infinite;
 }
 
 div.wrapper > header.main-header{
