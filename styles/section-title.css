@@ -6,6 +6,7 @@ div.section-title{
     justify-content: center;
     align-items: center;
     column-gap: 3%;
+    position: relative;
 }
 
 div.section-title > span::before{
