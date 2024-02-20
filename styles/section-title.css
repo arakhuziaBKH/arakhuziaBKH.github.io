@@ -9,10 +9,12 @@ div.section-title{
 }
 
 div.section-title > span::before{
-    width: 35dvw;
+    width: 25dvw;
     height: 2dvh;
     content: " ";
     position: absolute;
+    top: -10%;
+    right: 10%;
     border-bottom : 1px dotted #234;
     background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
     background-position: top;
