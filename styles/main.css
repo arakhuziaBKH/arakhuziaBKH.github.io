@@ -55,7 +55,7 @@ ul.navbar.items > li.item > a{
     padding: 1%;
 }
 ul.navbar.items > li.item > a > span{
-    color: var(--contrast-text-color);
+    color: rgba(243, 114, 44, 100%);
     font-size: 1.5rem;
     width: 100%;
     height: max-content;
