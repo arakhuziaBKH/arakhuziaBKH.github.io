@@ -80,6 +80,7 @@ a.contactMe-button{
     background: rgb(255,228,0);
     background: linear-gradient(300deg, rgba(255,228,0,0.9932364328811157) 0%, rgba(255,163,0,0.9932364328811157) 100%);
     -webkit-background: linear-gradient(300deg, rgba(255,228,0,0.9932364328811157) 0%, rgba(255,163,0,0.9932364328811157) 100%);
+    outline: 2px solid rgba(243, 114, 44, 100%);
 }
 a.projects-button {
     -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
