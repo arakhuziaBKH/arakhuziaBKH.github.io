@@ -5,7 +5,6 @@ div.wrapper{
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: stretch;
-    row-gap: 20px;
     background-color: var(--secondary-background);
     -webkit-background: linear-gradient(145deg, rgba(45,16,0,15%) 0%, rgba(17,138,178,15%) 50%, rgba(0,107,166,15%) 100%);
     background: linear-gradient(145deg, rgba(45,16,0,15%) 0%, rgba(17,138,178,15%) 50%, rgba(0,107,166,15%) 100%);
