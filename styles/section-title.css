@@ -14,7 +14,7 @@ div.section-title > span::before{
     height: 2dvh;
     content: " ";
     position: absolute;
-    top: 5%;
+    top: 1%;
     right: 5%;
     -webkit-background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
     background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
@@ -31,7 +31,7 @@ div.section-title > h1::after{
     height: 2dvh;
     content: " ";
     position: absolute;
-    top: 5%;
+    top: 1%;
     left: 5%;
     -webkit-background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
     background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
