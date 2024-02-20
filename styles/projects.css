@@ -11,22 +11,7 @@ section.projects{
     padding-inline: 2%;
     padding-block: 1.5dvh;
 }
-section.projects > div.section-title{
-    width: 100%;
-    height: 10dvh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 2dvw;
-}
 
-section.projects > div.section-title > span{
-    font-weight: 400;
-    font-size: 5rem;
-}
-section.projects > div.section-title > h1{
-    font-size: 4.5dvw;
-}
 
 section.projects > div.project{
     display: flex;
