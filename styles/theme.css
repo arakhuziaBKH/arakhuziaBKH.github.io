@@ -12,8 +12,8 @@
         --secondary-background: #E3F2FD;
         --border-color: #E5E5E5;
 
-        --primary-background-color: rgba(28, 28, 28, 100%);
-        --secondary-background-color: rgba(53, 53, 53, 100%);
+        --primary-background-color: #212121;
+        --secondary-background-color: #323232;
         --primary-orange: #fc8210;
         --text-color: rgba(242, 242, 242, 100%);
     }
