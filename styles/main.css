@@ -21,6 +21,7 @@ div.wrapper > header.main-header{
     border-radius: 3rem;
     position: fixed;
     top: 10px;
+    right: 2%;
     margin: 0 auto; 
 
 }
