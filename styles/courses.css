@@ -19,7 +19,6 @@ section.courses > div.course{
     row-gap: 2dvh;
     border-radius: 1.5rem;
     border: 2px solid var(--primary-blue);
-    box-shadow: 1px 1px 10px var(--border-color);
     padding-block: 2%;
     margin: 0 auto;
 }

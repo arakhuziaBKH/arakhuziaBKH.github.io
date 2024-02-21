@@ -19,8 +19,6 @@ section.skills > div.skill{
     justify-content: space-between;
     border-radius: 1dvw;
     outline: 1px solid var(--border-color);
-    box-shadow: 5px 1px 5px var(--border-color),
-                1px 5px 5px var(--border-color) ;
     background-color: #fff;
     position: relative;
 }
