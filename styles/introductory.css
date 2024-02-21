@@ -34,6 +34,7 @@ section.introductory > div.description > h1{
     animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     width: 100%;
     padding: 0 0 0 1%;
+    font-size: 12dvw;
     /* box-shadow: 0 0 7px  #fff,
                 0 0 10px  #fff,
                 0 0 21px   #fff,
@@ -45,7 +46,7 @@ section.introductory > div.description > h1{
 }
 
 section.introductory > div.description > h4{
-    font-size: 4dvw;
+    font-size: 8dvw;
     -webkit-animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     animation-delay: .5s;
