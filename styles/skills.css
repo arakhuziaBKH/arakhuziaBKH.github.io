@@ -10,7 +10,7 @@ section.skills{
     padding: 2% 0% 2% 0;
     background: rgb(255,163,0);
     -webkit-background: linear-gradient(25deg, rgba(255,163,0,0.2) 0%, rgba(255,184,27,0) 50%, rgba(255,204,54,0.10390720193244551) 100%);
-    background: linear-gradient(25deg, rgba(255,163,0,0.2) 0%, rgba(255,184,27,0) 50%, rgba(255,204,54,0.10390720193244551) 100%);
+    background: linear-gradient(25deg, transparent 0%, rgba(255,184,27,0) 50%, rgba(255,204,54,0.10390720193244551) 100%);
 }
 
 section.skills > div.skill{
