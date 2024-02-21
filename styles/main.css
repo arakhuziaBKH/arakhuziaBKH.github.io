@@ -7,7 +7,7 @@ div.wrapper{
     align-items: stretch;
     background-color: var(--secondary-background);
     -webkit-background: linear-gradient(145deg, rgba(45,16,0,15%) 0%, rgba(17,138,178,15%) 50%, rgba(0,107,166,15%) 100%);
-    background: linear-gradient(145deg, rgba(45,16,0,15%) 0%, rgba(17,138,178,15%) 50%, rgba(0,107,166,15%) 100%);
+    background: linear-gradient(145deg, rgba(45,16,0,15%) 0%, rgba(17,138,178,5%) 50%, rgba(0,107,166,15%) 100%);
     animation: gradient-animation infinite;
 }
 
