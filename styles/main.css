@@ -56,16 +56,13 @@ ul.navbar.items > li.item > a{
     padding: 1%;
 }
 ul.navbar.items > li.item > a > span{
-    color: rgba(243, 114, 44, 100%);
-    color: #fff;
+    color: var(--primary-orange);
     font-size: 1.5rem;
     width: 100%;
     height: max-content;
 }
 ul.navbar.items > li.item > a > span:first-child{
     font-size: 10dvw;
-    -webkit-filter:drop-shadow(1px 1px 10px var(--border-color));
-    filter:drop-shadow(1px 1px 10px var(--border-color));
 }
 ul.navbar.items > li.item > a > span:nth-child(2){
     /* display: none; */
