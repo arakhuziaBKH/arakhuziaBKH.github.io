@@ -8,8 +8,8 @@ section.introductory{
     column-gap: 5%;
     padding : 10% 0 0 0;
     background: rgb(255,163,0);
-    background: linear-gradient(300deg, rgba(255,163,0,0.3859897465466364) 0%, rgba(10,8,1,0) 50%, rgba(255,204,54,0.40753048848888096) 100%);
-    -webkit-background: linear-gradient(300deg, rgba(255,163,0,0.3859897465466364) 0%, rgba(10,8,1,0) 50%, rgba(255,204,54,0.40753048848888096) 100%);
+    background: linear-gradient(300deg, rgba(255,163,0,0.3859897465466364) 0%, rgba(10,8,1,0) 50%, transparent 100%);
+    -webkit-background: linear-gradient(300deg, rgba(255,163,0,0.3859897465466364) 0%, rgba(10,8,1,0) 50%, transparent 100%);
 }
 section.introductory > div.description{
  width: 40%;
