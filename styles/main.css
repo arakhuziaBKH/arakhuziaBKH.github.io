@@ -18,7 +18,7 @@ div.wrapper > header.main-header{
     justify-content: center;
     border-bottom: 2px solid rgba(243, 114, 44, 100%);
     background-color: var(--secondary-background-color);
-    border-radius: 3rem;
+    border-radius: 2rem;
     position: fixed;
     top: 10px;
     right: 2%;
@@ -64,5 +64,6 @@ ul.navbar.items > li.item > a > span{
 ul.navbar.items > li.item.logo{
     width:60%;
     height: max-content;
+    justify-content: flex-start;
 }
 
