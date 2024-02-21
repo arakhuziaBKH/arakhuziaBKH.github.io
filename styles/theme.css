@@ -12,5 +12,10 @@
         --box-shadow: #EBF2FA;
         --secondary-background: #E3F2FD;
         --border-color: #E5E5E5;
+
+        --primary-background-color: rgba(38, 15, 13, 100%);
+        --secondary-background-color: rgba(53, 53, 53, 100%);
+        --primary-orange: rgba(242, 106, 27, 100%);
+        --text-color: rgba(242, 242, 242, 100%);
     }
 }
