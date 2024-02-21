@@ -5,7 +5,7 @@ div.wrapper{
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: stretch;
-    background-color: var(--secondary-background);
+    background-color: var(--primary-background-color);
 }
 
 div.wrapper > header.main-header{
