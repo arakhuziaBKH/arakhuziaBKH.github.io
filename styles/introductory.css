@@ -84,6 +84,10 @@ a.projects-button {
     -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation-delay: .2s;
+    background: rgb(239,71,111);
+    background: linear-gradient(320deg, rgba(239,71,111,1) 0%, rgba(239,71,80,1) 100%);
+    -webkit-background: linear-gradient(320deg, rgba(239,71,111,1) 0%, rgba(239,71,80,1) 100%);
+    outline: 1px solid rgba(239, 71, 111, .4);
 }
 
 section.introductory > picture{
