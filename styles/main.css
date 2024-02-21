@@ -67,20 +67,3 @@ ul.navbar.items > li.item > a > span:first-child{
 ul.navbar.items > li.item > a > span:nth-child(2){
     /* display: none; */
 }
-
-ul.navbar.items > li.item:is(:hover, :active) > a > span:nth-child(2),
-ul.navbar.items > li.item:focus  > a > span:nth-child(2){
-    display: block;
-}
-ul.navbar.items > li.item:is(:hover, :active),
-ul.navbar.items > li.item:focus >{
-    border-radius: 1rem;
-    background-color: #fff;
-    color: #000;
-    box-shadow: 1px 1px 10px var(--border-color);
-}
-
-ul.navbar.items > li.item:is(:hover, :active)  > a > span,
-ul.navbar.items > li.item:focus >  a > span{
-    color: #333;
-}
