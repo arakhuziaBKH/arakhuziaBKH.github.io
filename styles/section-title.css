@@ -35,6 +35,7 @@ div.section-title > div.title{
     align-items: center;
     justify-content: center;
     column-gap: 6px;
+    border-radius: 1.5rem;
 }
 div.section-title > div.title > :is(span, h1){
     color: var(--primary-orange)
