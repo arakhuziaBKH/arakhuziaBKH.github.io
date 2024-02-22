@@ -1,5 +1,5 @@
 div.wrapper{
-    width: 100%;
+    width: 100dvh;
     min-height: 100dvh;
     display: flex;
     flex-flow: column nowrap;
