@@ -61,6 +61,7 @@ section.skills > div.skill > div.progress > span{
 }
 section.skills > div.skill > div.progress > span.forground{
     background-color: var(--primary-orange);
+    width: 90%;
 }
 
 section.skills > div.other-skills{
