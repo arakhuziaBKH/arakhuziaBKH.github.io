@@ -46,6 +46,7 @@ a.btn{
     font-size: 1.5rem;
     font-weight: 600;
     position: relative;
+    column-gap: 3%;
 }
 
 section.introductory > a.contactMe-button{
