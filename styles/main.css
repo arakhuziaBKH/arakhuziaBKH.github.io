@@ -57,7 +57,7 @@ ul.navbar.items > li.item > a{
 }
 ul.navbar.items > li.item > a > span{
     color: var(--text-color);
-    font-size: 4rem;
+    font-size: 3rem;
     width: 100%;
     height: max-content;
 }
