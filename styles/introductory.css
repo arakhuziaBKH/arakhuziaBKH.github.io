@@ -21,11 +21,12 @@ section.introductory > div.description{
  position: relative;
 }
 
-section.introductory > div.description :is(h1, h4){
+section.introductory > div.description :is(h2, h3, p){
     width: 100%;
     height: max-content;
-    font-size: 5dvw;
-    text-wrap: nowrap;
+    text-align: left;
+    padding: 1%;
+    
 }
 section.introductory > div.description > h1{
     -webkit-animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
