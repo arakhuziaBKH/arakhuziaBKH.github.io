@@ -47,7 +47,7 @@ section.skills > div.skill > picture > img{
 }
 
 section.skills > div.skill > div.progress{
-    width: 68%;
+    width: 65%;
     height: 80%;
     display: flex;
     flex-flow: row nowrap;
