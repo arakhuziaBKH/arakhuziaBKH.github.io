@@ -66,4 +66,7 @@ ul.navbar.items > li.item.logo{
     height: max-content;
     justify-content: flex-start;
 }
+ul.navbar.items > li.item.theme-toggle > a > span{
+    color: goldenrod;
+}
 
