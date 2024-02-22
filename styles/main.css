@@ -6,7 +6,7 @@ div.wrapper{
     justify-content: space-between;
     align-items: stretch;
     background-color: var(--primary-background-color);
-    position: relative;
+    position:relative;
 }
 
 div.wrapper > header.main-header{
