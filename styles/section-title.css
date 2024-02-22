@@ -30,3 +30,6 @@ div.section > div.title{
     justify-content: center;
     column-gap: 6px;
 }
+div.section > div.title > is:(span, h1){
+    color: var(--primary-orange)
+}
