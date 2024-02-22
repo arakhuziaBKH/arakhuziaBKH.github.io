@@ -2,7 +2,7 @@ section.introductory{
     width: 100%;
     min-height: 60dvh;
     display: flex;
-    flex-flow: column-reverse nowrap;
+    flex-flow: column nowrap;
     align-items: stretch;
     justify-content: space-between;
     row-gap: 5%;
