@@ -7,3 +7,9 @@ div.section-title{
     align-items: center;
     position: relative;
 }
+div.secion-title > :is(span.right-wing, span.left-wing){
+    width: 25%;
+    height: 10%;
+    border-radius: 3rem;
+    background: linear-gradient(145deg, var(--primary-orange) 0%, transparent 100%);
+}
