@@ -2,15 +2,15 @@ section.introductory{
     width: 100%;
     height: 60dvh;
     display: flex;
-    flex-flow: row-reverse nowrap;
+    flex-flow: column-reverse nowrap;
     align-items: stretch;
     justify-content: space-between;
-    column-gap: 5%;
+    row-gap: 5%;
     padding : 10% 0 0 0;
     margin: 9.5dvh 0 0 0
 }
 section.introductory > div.description{
- width: 40%;
+ width: 98%;
  height: 100%;
  display: flex;
  flex-flow: column nowrap;
