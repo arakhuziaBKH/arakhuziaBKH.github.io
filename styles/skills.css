@@ -57,7 +57,7 @@ section.skills > div.skill > div.progress{
 }
 section.skills > div.skill > div.progress > span{
     height: 10%;
-    width: 80%;
+    width: 90%;
     background-color: var(--secondary-background-color);
     border-radius: 1.5rem;
     position: absolute;
