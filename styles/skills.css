@@ -2,58 +2,57 @@ section.skills{
     width: 100%;
     min-height: 50dvh;
     display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    column-gap: 3dvw;
-    row-gap: 2dvh;
-    padding: 2% 0% 2% 0;
-}
-
-section.skills > div.skill{
-    width: calc(100% / 2 - 5%);
-    height: 30dvh;
-    display: flex;
     flex-flow: column nowrap;
     align-items: stretch;
     justify-content: space-between;
-    border-radius: 1dvw;
-    outline: 1px solid var(--border-color);
-    background-color: #fff;
+    row-gap: 2dvh;
+    padding: 2% 2% ;
+}
+
+section.skills > div.skill{
+    width: 100%;
+    height: 5dvh;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
     position: relative;
 }
 section.skills > div.skill > picture{
-    width: 100%;
-    height: 70%;
+    width: 30%;
+    height: 100%;
     overflow: hidden;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-    border-top-right-radius: 1dvw;
-    border-top-left-radius: 1dvw;
+    border-radius: 50%;
 }
 section.skills > div.skill > picture > img{
     width: 100%;
     height: 100%;
 }
 
-section.skills > div.skill > div.stars{
-    position: relative;
+section.skills > div.skill > div.progress{
+    width: calc(100% - 32%);
+    height: 80%;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     justify-content: center;
-    column-gap: 2%;
-    width: 85%;
-    height: 30%;
+    position: relative;
 }
-
-section.skills > div.skill > div.stras > span.star{
-    color: goldenrod;
+section.skills > div.skill > div.progress > span{
+    height: 50%;
+    width: 100%;
+    background-color: var(--secondary-background-color);
+    border-radius: 1.5rem;
     position: absolute;
-    right: 2%;
-    top: 2%;
+    margin-top: 50%;
+    transform: translateX(-50%);
+}
+section.skills > div.skill > div.progress > span.forground{
+    background-color: var(--primary-orange);
 }
 
 section.skills > div.other-skills{
