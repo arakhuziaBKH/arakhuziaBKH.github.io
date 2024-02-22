@@ -60,7 +60,7 @@ body{
     align-items: stretch;
     justify-content: stretch;
     overflow-x: hidden;
-    width: 100%;
+    width: 100dvh;
     min-height: 100dvh;
     font-size: 2rem;
 }
