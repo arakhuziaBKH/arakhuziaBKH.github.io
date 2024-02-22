@@ -31,7 +31,7 @@ section.introductory > div.description :is(h2, h3, p){
 
 
 a.btn{
-    width: 35dvw;
+    width: 45dvw;
     height: 7.5dvh;
     margin-block: 1.5dvh;
     border-radius: 1rem;
