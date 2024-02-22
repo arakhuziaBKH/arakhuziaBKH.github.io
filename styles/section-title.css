@@ -17,7 +17,13 @@ div.section-title > span.left-wing{
     width: 25%;
     height: 10%;
     border-radius: 3rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
     background: linear-gradient(145deg, transparent 0% ,var(--primary-orange) 100%);
+}
+div.section-title > span.right-wing{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 div.section-title > div.title{
