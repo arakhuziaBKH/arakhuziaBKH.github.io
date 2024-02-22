@@ -62,6 +62,7 @@ section.skills > div.skill > div.progress > span{
     border-radius: 1.5rem;
     position: absolute;
     top: 50%;
+    right: 32%;
     transform: translateX(-50%);
 }
 section.skills > div.skill > div.progress > span.forground{
