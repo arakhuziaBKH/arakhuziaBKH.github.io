@@ -17,40 +17,18 @@ section.introductory > div.description{
  align-items: center;
  justify-content: space-evenly;
  row-gap: 5%;
- padding: 2% ;
+ padding: 5% 2% 2% 2% ;
  position: relative;
 }
 
 section.introductory > div.description :is(h2, h3, p){
     width: 100%;
     height: max-content;
-    text-align: left;
+    text-align: justify;
     padding: 1%;
-    
-}
-section.introductory > div.description > h1{
-    -webkit-animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-    animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-    width: 100%;
-    padding: 0 0 0 1%;
-    font-size: 8dvw;
-    /* box-shadow: 0 0 7px  #fff,
-                0 0 10px  #fff,
-                0 0 21px   #fff,
-                0 0 42px  #f09,
-                0 0 82px  #f09,
-                0 0 92px  #f09,
-                0 0 102px #f09,
-                0 0 151px #f09; */
+
 }
 
-section.introductory > div.description > h4{
-    font-size: 8dvw;
-    -webkit-animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-    animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-    animation-delay: .5s;
-    padding: 0 0 0 1%;
-}
 
 a.btn{
     width: 35dvw;
@@ -69,7 +47,11 @@ a.btn{
     position: relative;
 }
 
-a.contactMe-button{
+section.introductory > a.contactMe-button{
+    width: 50%;
+    height: 10dvh;
+    margin: 0 auto;
+    align-self: center;
     -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     background: rgb(255,228,0);
@@ -77,7 +59,7 @@ a.contactMe-button{
     -webkit-background: linear-gradient(300deg, rgba(255,228,0,0.9932364328811157) 0%, rgba(255,163,0,0.9932364328811157) 100%);
     outline: none;
 }
-a.projects-button {
+section.introductory > a.projects-button {
     -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation-delay: .2s;
