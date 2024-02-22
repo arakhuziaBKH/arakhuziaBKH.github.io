@@ -30,7 +30,7 @@ div.section-title > span.right-wing{
 div.section-title > div.title{
     width: max-content;
     height: 100%;
-    border: 1px solid var(--primary-orange);
+    border: 2px solid var(--primary-orange);
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
