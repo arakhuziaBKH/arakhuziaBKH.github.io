@@ -42,7 +42,7 @@ section.skills > div.skill > picture > img{
 }
 
 section.skills > div.skill > div.progress{
-    width: calc(100% - 32%);
+    width: 68%;
     height: 80%;
     display: flex;
     flex-flow: row nowrap;
@@ -51,7 +51,7 @@ section.skills > div.skill > div.progress{
     position: relative;
 }
 section.skills > div.skill > div.progress > span{
-    height: 30%;
+    height: 15%;
     width: 100%;
     background-color: var(--secondary-background-color);
     border-radius: 1.5rem;
