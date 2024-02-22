@@ -20,7 +20,7 @@ div.section-title > span.left-wing{
     background: linear-gradient(145deg, transparent 0% ,var(--primary-orange) 100%);
 }
 
-div.section > div.title{
+div.section-title > div.title{
     width: max-content;
     height: 100%;
     border: 1px solid var(--primary-orange);
@@ -30,6 +30,6 @@ div.section > div.title{
     justify-content: center;
     column-gap: 6px;
 }
-div.section > div.title > is:(span, h1){
+div.section-title > div.title > :is(span, h1){
     color: var(--primary-orange)
 }
