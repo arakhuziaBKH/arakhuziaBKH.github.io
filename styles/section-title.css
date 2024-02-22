@@ -5,47 +5,5 @@ div.section-title{
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    column-gap: 3%;
     position: relative;
-}
-
-div.section-title > span::before{
-    width: 25dvw;
-    height: 2dvh;
-    content: " ";
-    position: absolute;
-    top: 48%;
-    right: 5%;
-    -webkit-background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
-    background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
-    background-position: top;
-    background-size: 25px 4px;
-    background-repeat: repeat-x;
-}
-
-
-div.section-title > span{
-    font-size: clamp(4dvw, 8dvw, 12dvw);
-}
-
-div.section-title > h1{
-    font-size: clamp(5dvw, 8dvw, 12dvw);
-    font-weight: 600;
-}
-
-
-
-
-div.section-title > h1::after{
-    width: 25dvw;
-    height: 2dvh;
-    content: " ";
-    position: absolute;
-    top: 48%;
-    left: 5%;
-    -webkit-background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
-    background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
-    background-position: top;
-    background-size: 25px 4px;
-    background-repeat: repeat-x;
 }
