@@ -36,7 +36,7 @@ a.btn{
     margin-block: 1.5dvh;
     border-radius: 1rem;
     background: rgb(216,8,8);
-    background: linear-gradient(145deg, var(--primary-orange) 10%, rgba(255,88,88,1) 50%, var(--primary-orange) 90%);
+    background: linear-gradient(145deg, var(--primary-orange) 10%, goldenrod 50%, var(--primary-orange) 90%);
     -webkit-background: linear-gradient(145deg, var(--primary-orange) 10%, rgba(255,88,88,1) 50%, var(--primary-orange) 90%);
     color: #fff;
     display: flex;
