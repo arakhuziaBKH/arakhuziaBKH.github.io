@@ -9,7 +9,7 @@ div.wrapper{
 }
 
 div.wrapper > header.main-header{
-    width:96%;
+    width:96dvh;
     height: 9.5dvh;
     padding: 0 2%;
     display: flex;
