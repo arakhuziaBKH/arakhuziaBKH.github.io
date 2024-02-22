@@ -56,7 +56,7 @@ ul.navbar.items > li.item > a{
     padding: 1%;
 }
 ul.navbar.items > li.item > a > span{
-    color: var(--primary-orange);
+    color: var(--text-color);
     font-size: 4rem;
     width: 100%;
     height: max-content;
