@@ -11,13 +11,13 @@ section.introductory{
 }
 section.introductory > div.description{
  width: 98%;
- height: 70dvh;
+ height: 50dvh;
  display: flex;
  flex-flow: column nowrap;
- align-items: flex-start;
- justify-content: flex-start;
+ align-items: center;
+ justify-content: space-evenly;
  row-gap: 5%;
- padding: 0 0 2% 0;
+ padding: 2% ;
  position: relative;
 }
 
