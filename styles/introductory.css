@@ -26,7 +26,7 @@ section.introductory > div.description :is(h2, h3, p){
     height: max-content;
     text-align: justify;
     padding: 1%;
-    line-height: .3rem;
+    line-height: 2rem;
 }
 
 
