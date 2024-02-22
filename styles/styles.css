@@ -17,6 +17,12 @@
     display: block;
 }
 
+script,
+head,
+link{
+  display: none;
+}
+
 a,
 a:hover,
 a:link,
