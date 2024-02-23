@@ -28,7 +28,7 @@ section.skills > div.skill{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     position: relative;
 }
 section.skills > div.skill > picture{
@@ -48,11 +48,11 @@ section.skills > div.skill > picture > img{
 
 section.skills > div.skill > div.progress{
     width: 65%;
-    height: 80%;
+    height: 90%;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     position: relative;
 }
 section.skills > div.skill > div.progress > span{
