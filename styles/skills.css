@@ -32,8 +32,8 @@ section.skills > div.skill{
     position: relative;
 }
 section.skills > div.skill > picture{
-    width: 30%;
-    height: 100%;
+    width: 15%;
+    height: 50%;
     overflow: hidden;
     display: flex;
     flex-flow: column nowrap;
