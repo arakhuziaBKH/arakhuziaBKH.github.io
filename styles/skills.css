@@ -69,7 +69,6 @@ section.skills > div.skill > div.progress > span.forground{
     background-color: var(--primary-orange);
     width: 90%;
     height: 8%;
-    right: -35%;
     top: 51%;
 }
 section.skills > div.skill.html > div.progress > span.forground{
