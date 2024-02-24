@@ -42,8 +42,8 @@ section.skills > div.skill > picture{
     border-radius: 50%;
 }
 section.skills > div.skill > picture > img{
-    width: 100%;
-    height: 100%;
+    width: 150%;
+    height: 150%;
 }
 
 section.skills > div.skill > div.progress{
