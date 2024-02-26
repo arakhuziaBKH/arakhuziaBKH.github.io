@@ -59,7 +59,7 @@ section.projects > div.project > h2 > a{
     width: 80%;
     height: 80%;
     text-align: center;
-    color: var(--primary-blue);
+    color: var(--primary-orange);
     font-size: 2rem;
     font-weight: 600;
     padding-block: 2%;
