@@ -6,7 +6,7 @@ section.projects{
     align-items: stretch;
     justify-content: center;
     column-gap: 1dvw;
-    row-gap: 1dvh;
+    row-gap: 10dvh;
     padding-inline: 2%;
     padding-block: 1.5dvh;
 }
@@ -18,12 +18,10 @@ section.projects > div.project{
     justify-content: space-between;
     align-items: stretch;
     width: 96%;
-    background-color: #fff;
+    background-color: var(--secondary-background-color);
     height: 50dvh;
-    outline: 1.5px solid  var(--primary-blue);
+    outline: 1.5px solid  var(--primary-orange);
     border-radius: 1.5rem;
-    box-shadow: .1px 0 20px var(--border-color),
-                0 .1px 20px var(--border-color);
 }
 
 section.projects > div.project > picture{
