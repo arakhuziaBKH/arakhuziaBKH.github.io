@@ -115,4 +115,8 @@ document.addEventListener("visibilitychange", ()=>{
     }
 });
 
+
+var sections = document.querySelectorAll("section");
+console.log(sections);
+
 });
