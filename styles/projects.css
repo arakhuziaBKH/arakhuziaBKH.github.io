@@ -50,7 +50,7 @@ section.projects > div.project > h2{
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-    outline: 1px solid var(--border-color);
+    outline: 1px solid var(--primary-orange);
     border-radius: inherit;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
