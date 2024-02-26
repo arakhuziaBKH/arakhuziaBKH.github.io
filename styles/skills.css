@@ -5,7 +5,7 @@ section.skills{
     flex-flow: column nowrap;
     align-items: stretch;
     justify-content: space-between;
-    row-gap: 2dvh;
+    row-gap: 10dvh;
     padding: 2% 2% ;
 }
 
