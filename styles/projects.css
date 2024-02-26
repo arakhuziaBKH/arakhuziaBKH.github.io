@@ -35,10 +35,11 @@ section.projects > div.project > picture{
     border-radius: 1.5rem;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
+    padding: 1%;
 
 }
 section.projects > div.project > picture > img{
-    width: 100%;
+    width: 90%;
     object-fit: contain;
 }
 
