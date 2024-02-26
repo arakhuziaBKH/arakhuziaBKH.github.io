@@ -7,7 +7,7 @@ div.wrapper{
     align-items: stretch;
     background-color: var(--primary-background-color);
     position:relative;
-    row-gap: 20px;
+    row-gap: 20dvh;
 }
 
 div.wrapper > header.main-header{
