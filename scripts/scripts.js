@@ -31,6 +31,7 @@ anchorPlacement: 'top-bottom', // defines which position of the element regardin
 
 
 var sections = document.querySelectorAll("section");
-console.log(sections);
-
+    sections.forEach(section, () =>{
+        section.style.transition = ".5s";
+    });
 });
