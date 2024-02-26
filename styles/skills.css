@@ -72,11 +72,11 @@ section.skills > div.skill > div.progress > span.forground{
     top: 51%;
 }
 section.skills > div.skill.html > div.progress > span.forground{
-    width: 100%;
+    width: 90%;
     right: -50%;
 }
 section.skills > div.skill.css > div.progress > span.forground{
-    width: 90%;
+    width: 85%;
     right: -45%;
 }
 section.skills > div.skill.javascript > div.progress > span.forground{
