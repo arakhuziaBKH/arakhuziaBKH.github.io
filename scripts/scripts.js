@@ -33,7 +33,7 @@ anchorPlacement: 'top-bottom', // defines which position of the element regardin
 var sections = document.querySelectorAll("section");
     for(var i = 0; i < sections.length; i++){
         let item = sections[i];
-        item.style.transition = ".5s";
+        item.style.transition = "all .5s easein-out";
     }
 
 
