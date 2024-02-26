@@ -1,32 +1,5 @@
 $(document).ready(function(){
-    import  "madule";
-    $("#contactMe").on("click", function(e){
-        Notification.requestPermission().then(permissions => {
-            if (permission === "granted"){
-                new Notification($("#contactMe").text());
-            }
-        });
-    });
 
-
-
-
-    // function reveal() {
-    //       var reveals = document.querySelectorAll(".reveal");
-    //     for (var i = 0; i < reveals.length; i++) {
-    //         var windowHeight = window.innerHeight;
-    //         var elementTop = reveals[i].getBoundingClientRect().top;
-    //         var elementVisible = 150;
-    //         if (elementTop < windowHeight - elementVisible) {
-    //             reveals[i].classList.add("active");
-    //         } else {
-    //             reveals[i].classList.remove("active");                                    
-    //         }
-    //     }
-    // }
-    
-    // window.addEventListener("scroll", reveal);
-    // reveal();
 
     
 AOS.init();
@@ -54,65 +27,6 @@ once: false, // whether animation should happen only once - while scrolling down
 mirror: false, // whether elements should animate out while scrolling past them
 anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
-});
-
-
-
-
-
-
-// smooth scroling with jquery
-//
-//
-//
-// $('a.btn')
-// // Remove links that don't actually link to anything
-// .not('[href="#"]')
-// .not('[href="#0"]')
-// .click(function(event) {
-// // On-page links
-// if (
-// location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-// && 
-// location.hostname == this.hostname
-// ) {
-// // Figure out element to scroll to
-// var target = $(this.hash);
-// target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-// // Does a scroll target exist?
-// if (target.length) {
-// // Only prevent default if animation is actually gonna happen
-// event.preventDefault();
-// $('html, body').animate({
-// scrollTop: target.offset().top
-// }, 1000, function() {
-// // Callback after animation
-// // Must change focus!
-// var $target = $(target);
-// $target.focus();
-// if ($target.is(":focus")) { // Checking if the target was focused
-// return false;
-// } else {
-// $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-// $target.focus(); // Set focus again
-// };
-// });
-// }
-// }
-// });
-
-//
-//
-//
-//end of smooth scrolling with jquery
-
-
-
-document.addEventListener("visibilitychange", ()=>{
-    if(document.visibilityState === "hidden"){
-        const data = JSON.stringify({spent: 3600});
-        navigator.sendBeacon('/log', data);
-    }
 });
 
 
