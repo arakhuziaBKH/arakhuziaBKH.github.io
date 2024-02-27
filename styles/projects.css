@@ -18,7 +18,7 @@ section.projects > div.project{
     justify-content: space-between;
     align-items: stretch;
     width: 96%;
-    background-color: var(--primary-orange);
+    background-color: var(--secondary-background-color);
     height: 50dvh;
     outline: 1.5px solid  var(--primary-orange);
     border-radius: 1.5rem;
