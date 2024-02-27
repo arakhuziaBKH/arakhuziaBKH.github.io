@@ -4,7 +4,27 @@
 /* blue    rgba(0, 107, 166, 100%) */
 /* yellow   rgba(255, 183, 0, 100%) */
 @media (prefers-color-scheme: dark){
-    :root{
+    :root.dark{
+        --background-color: #E9ECEF;
+        --primary-blue: #00A6FB;
+        --contrast-text-color: #EBEBEB;
+        --box-shadow: #EBF2FA;
+        --secondary-background: #E3F2FD;
+        --border-color: #E5E5E5;
+
+        --primary-background-color: #212121;
+        --secondary-background-color: #323232;
+        --primary-orange: #fc8210;
+        --text-color: rgba(242, 242, 242, 100%);
+    }
+}
+
+
+
+
+
+@media (prefers-color-scheme: light){
+    :root.light{
         --background-color: #E9ECEF;
         --primary-blue: #00A6FB;
         --contrast-text-color: #EBEBEB;
