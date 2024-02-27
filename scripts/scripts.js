@@ -45,11 +45,10 @@ var sections = document.querySelectorAll("section");
     var themeToggle = document.getElementById("theme-toggle");
     
     // adding event listener to the theme button
-    themeToggle.addEventListener("click", changeTheme);
-
-    var changeTheme = ()=>{
+    themeToggle.addEventListener("click", function(e){
+        e.preventDefault;
         document.body.classList.toggle("light");
-    }
+    });
 
     
 
