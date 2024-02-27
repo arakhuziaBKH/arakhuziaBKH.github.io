@@ -4,7 +4,7 @@
 /* blue    rgba(0, 107, 166, 100%) */
 /* yellow   rgba(255, 183, 0, 100%) */
 @media (prefers-color-scheme: dark){
-    :root.dark{
+    :root{
         --background-color: #E9ECEF;
         --primary-blue: #00A6FB;
         --contrast-text-color: #EBEBEB;
@@ -24,7 +24,7 @@
 
 
 @media (prefers-color-scheme: light){
-    :root.light{
+    :root{
         --background-color: #E9ECEF;
         --primary-blue: #00A6FB;
         --contrast-text-color: #EBEBEB;
