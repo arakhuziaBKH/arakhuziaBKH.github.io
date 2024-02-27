@@ -18,7 +18,7 @@ section.projects > div.project{
     justify-content: space-between;
     align-items: stretch;
     width: 96%;
-    background-color: var(--secondary-background-color);
+    background-color: var(--primary-orange);
     height: 50dvh;
     outline: 1.5px solid  var(--primary-orange);
     border-radius: 1.5rem;
@@ -50,7 +50,7 @@ section.projects > div.project > h2{
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-    outline: 1px solid var(--primary-orange);
+    outline: 1px solid var(--background-color);
     border-radius: inherit;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
