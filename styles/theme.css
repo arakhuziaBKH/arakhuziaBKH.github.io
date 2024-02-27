@@ -18,16 +18,9 @@
 
 @media (prefers-color-scheme: light){
     :root{
-        --background-color: ;
-        --primary-blue: #00A6FB;
-        --contrast-text-color: #EBEBEB;
-        --box-shadow: #EBF2FA;
-        --secondary-background: #E3F2FD;
-        --border-color: #E5E5E5;
-
         --primary-background-color: #E9ECEF;
         --secondary-background-color: #aaa;
-        --primary-orange: #fc8210;
+        --primary-orange: rgba(239, 71, 111, 100%);
         --text-color: #212121;
     }
 }
