@@ -39,6 +39,11 @@ var sections = document.querySelectorAll("section");
 
 
 
+    //theme section
+
+    var themeToggle = document.getElementById("theme-toggle");
+    
+
 
 
 
