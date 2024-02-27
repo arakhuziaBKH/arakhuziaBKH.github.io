@@ -48,7 +48,7 @@ var sections = document.querySelectorAll("section");
     themeToggle.addEventListener("click", changeTheme);
 
     var changeTheme = ()=>{
-        document.body.classList.toggle();
+        document.body.classList.toggle("light");
     }
 
     
