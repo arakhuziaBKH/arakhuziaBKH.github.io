@@ -41,7 +41,16 @@ var sections = document.querySelectorAll("section");
 
     //theme section
 
+    //selecting theme toggling button
     var themeToggle = document.getElementById("theme-toggle");
+    
+    // adding event listener to the theme button
+    themeToggle.addEventListener("click", changeTheme);
+
+    var changeTheme = ()=>{
+        document.body.classList.toggle();
+    }
+
     
 
 
