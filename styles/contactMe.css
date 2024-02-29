@@ -89,6 +89,8 @@ section.contactMe > div.contact-information > div.mobile > form > fieldset{
     align-items: center;
     justify-content: space-between;
     column-gap: 3%;
+    border: none;
+    outline: none;
 }
 section.contactMe > div.contact-information > div.mobile > form > :is(fieldset, button){
     width: 100%;
