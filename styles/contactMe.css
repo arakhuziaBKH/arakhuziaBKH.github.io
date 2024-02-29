@@ -88,14 +88,17 @@ section.contactMe > div.contact-information > div.mobile > form > fieldset{
     height: calc(100% / 3 - 1%);
     display:flex;
     flex-flow: column nowrap;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
     column-gap: 3%;
     border: none;
     outline: none;
 }
-section.contactMe > div.contact-information > div.mobile > form > :is(fieldset, button){
+section.contactMe > div.contact-information > div.mobile > form > fieldset :is(input, textarea){
     width: 100%;
+    background-color: var(--primary-background-color);
+    outline: var(--primary-orange);
+
 }
 
 section.contactMe > div.contact-information > div.address > address > a{
