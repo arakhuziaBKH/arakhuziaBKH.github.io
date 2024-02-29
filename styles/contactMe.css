@@ -78,6 +78,7 @@ section.contactMe > div.contact-information > div.mobile > form{
     justify-content: space-between;
     row-gap: 1%;
     border: 1px solid var(--primary-orange);
+    background-color: var(--secondary-background-color);
     border-radius: inherit;
     padding: 1%;
 
