@@ -78,6 +78,7 @@ section.contactMe > div.contact-information > div.mobile > form{
     justify-content: space-between;
     row-gap: 1%;
     border: 1px solid var(--primary-orange);
+    border-radius: inherit;
     padding: 1%;
 
 }
@@ -85,7 +86,7 @@ section.contactMe > div.contact-information > div.mobile > form > fieldset{
     width: 100%;
     height: calc(100% / 3 - 1%);
     display:flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     align-items: center;
     justify-content: space-between;
     column-gap: 3%;
