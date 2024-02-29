@@ -94,6 +94,9 @@ section.contactMe > div.contact-information > div.mobile > form > fieldset{
     border: none;
     outline: none;
 }
+section.contactMe > div.contact-information > div.mobile > form > fieldset > input{
+    height: 60%
+}
 section.contactMe > div.contact-information > div.mobile > form > fieldset :is(input, textarea){
     width: 100%;
     background-color: var(--primary-background-color);
