@@ -78,6 +78,8 @@ ul.navbar.items > li.item.sideMenu{
 
 ul.navbar.items > li.item.sideMenu > div#sideMenu{
     position: fixed;
+    top:0;
+    right:0;
     width: 100dvw;
     height:100dvh;
     background-color: var(--secondary-background-color);
