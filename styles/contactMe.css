@@ -105,7 +105,7 @@ section.contactMe > div.contact-information > div.mobile > form > fieldset :is(i
     background-color: var(--primary-background-color);
     border: none;
     outline: 1px solid var(--primary-orange);
-    border-radius: 1.5rem;
+    border-radius: .75rem;
     padding: 0 2% 0 0;
 
 }
