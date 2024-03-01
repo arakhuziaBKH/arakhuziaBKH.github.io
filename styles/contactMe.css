@@ -90,9 +90,7 @@ section.contactMe > div.contact-information > div.mobile > form > fieldset{
     flex-flow: column nowrap;
     align-items: stretch;
     justify-content: space-between;
-    column-gap: 3%;
-    border: none;
-    outline: none;
+    row-gap: 3%;
 }
 section.contactMe > div.contact-information > div.mobile > form > fieldset > input{
     height: 60%;
