@@ -83,6 +83,10 @@ ul.navbar.items > li.item.sideMenu > div#sideMenuContainer{
     width: 100dvw;
     height:100dvh;
     background-color: var(--secondary-background-color);
+    flex-flow: column nowrap;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 2% 1%;
 }
 ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > header{
 
