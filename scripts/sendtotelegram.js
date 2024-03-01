@@ -23,7 +23,7 @@ const userMessage = document.querySelector("#message");
 const sendButton = document.querySelector("#sendButton");
 sendButton.addEventListener("click", (e) => {
     e.preventDefault();
-    const message = `Name: ${username.value}\nEmail: ${email.value}\nText: ${userMessage.value}`;
+    const message = `نام و نام خانوادگی کاربر : ${username.value}<br/><br /> \nایمیل : ${email.value}<br /> <br /> \n پیام کاربر : ${userMessage.value}`;
     sendMessage(message);
 });
 
