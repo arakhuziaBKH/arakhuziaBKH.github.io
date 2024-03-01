@@ -21,7 +21,8 @@ const userMessage = document.querySelector("#message");
 
 // Assuming you have a button to trigger the message
 const sendButton = document.querySelector("#sendButton");
-sendButton.addEventListener("click", () => {
+sendButton.addEventListener("click", (e) => {
+    e.preventDefault();
     const message = `Name: ${username.value}\nEmail: ${email.value}\nText: ${userMessage.value}`;
     sendMessage(message);
 });
