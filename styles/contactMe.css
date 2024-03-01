@@ -91,6 +91,8 @@ section.contactMe > div.contact-information > div.mobile > form > fieldset{
     align-items: stretch;
     justify-content: space-between;
     row-gap: 3%;
+    outline: none;
+    border: none;
 }
 section.contactMe > div.contact-information > div.mobile > form > fieldset > input{
     height: 60%;
@@ -113,10 +115,13 @@ section.contactMe > div.contact-information > div.mobile > form > fieldset.texta
 }
 
 section.contactMe > div.contact-information > div.mobile > form > button#sendButton{
-    width: 100%;
+    width: 60%;
     height: calc(100% / 3 - 1%);
     background-color: var(--primary-orange);
-    margin: 2%;
+    margin: 2% auto;
+    border-radius: .5rem;
+    outline:none;
+    border: none;
 }
 
 
