@@ -72,3 +72,14 @@ ul.navbar.items > li.item.theme-toggle > a > span{
     color: goldenrod;
 }
 
+ul.navbar.items > li.item.sideMenu{
+    position: relative;
+}
+
+ul.navbar.items > li.item.sideMenu > div#sideMenu{
+    position: fixed;
+    width: 100dvw;
+    height:100dvh;
+    background-color: var(--secondary-background-color);
+}
+
