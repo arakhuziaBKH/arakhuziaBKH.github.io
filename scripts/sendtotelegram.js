@@ -15,14 +15,14 @@ function sendMessage(text) {
     xht.send();
 }
 
-const nameInput = document.querySelector("#nameInput");
-const emailInput = document.querySelector("#emailInput");
-const textInput = document.querySelector("#textInput");
+const username = document.querySelector("#username");
+const email = document.querySelector("#email");
+const userMessage = document.querySelector("#message");
 
 // Assuming you have a button to trigger the message
 const sendButton = document.querySelector("#sendButton");
 sendButton.addEventListener("click", () => {
-    const message = `Name: ${nameInput.value}\nEmail: ${emailInput.value}\nText: ${textInput.value}`;
+    const message = `Name: ${username.value}\nEmail: ${email.value}\nText: ${userMessage.value}`;
     sendMessage(message);
 });
 
