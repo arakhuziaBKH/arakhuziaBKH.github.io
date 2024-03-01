@@ -76,7 +76,7 @@ ul.navbar.items > li.item.sideMenu{
     /* position: relative; */
 }
 
-ul.navbar.items > li.item.sideMenu > div#sideMenu{
+ul.navbar.items > li.item.sideMenu > div#sideMenuContainer{
     position: fixed;
     top:0;
     right:0;
@@ -84,4 +84,6 @@ ul.navbar.items > li.item.sideMenu > div#sideMenu{
     height:100dvh;
     background-color: var(--secondary-background-color);
 }
+ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > header{
 
+}

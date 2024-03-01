@@ -2,7 +2,7 @@
 var sideMenuIcon = document.getElementById("sideMenuIcon");
  console.log(sideMenuIcon);
 //selecting side menu div
-var sideMenuContainer = document.getElementById("sideMenu");
+var sideMenuContainer = document.getElementById("sideMenuContainer");
 console.log(sideMenuContainer);
 
 sideMenuContainer.style.display = "none";
