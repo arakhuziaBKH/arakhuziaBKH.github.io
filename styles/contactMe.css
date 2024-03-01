@@ -113,6 +113,15 @@ section.contactMe > div.contact-information > div.mobile > form > fieldset :is(i
 section.contactMe > div.contact-information > div.mobile > form > fieldset.textarea-message{
     height: 50dvh;
 }
+
+section.contactMe > div.contact-information > div.mobile > form > button#sendButton{
+    width: 100%;
+    height: calc(100% / 3 - 1%);
+    background-color: var(--primary-orange);
+    margin: 2%;
+}
+
+
 section.contactMe > div.contact-information > div.address > address > a{
     display: felx;
     flex-flow: row nowrap;
