@@ -95,15 +95,24 @@ section.contactMe > div.contact-information > div.mobile > form > fieldset{
     outline: none;
 }
 section.contactMe > div.contact-information > div.mobile > form > fieldset > input{
-    height: 60%
+    height: 60%;
+    border-radius: 1.5rem;
+    outline: none;
+    border: none;
 }
 section.contactMe > div.contact-information > div.mobile > form > fieldset :is(input, textarea){
     width: 100%;
     background-color: var(--primary-background-color);
+    border: none;
     outline: 1px solid var(--primary-orange);
+    border-radius: 1.5rem;
+    padding: 0 2% 0 0;
 
 }
 
+section.contactMe > div.contact-information > div.mobile > form > fieldset.textarea-message{
+    height: 50dvh;
+}
 section.contactMe > div.contact-information > div.address > address > a{
     display: felx;
     flex-flow: row nowrap;
