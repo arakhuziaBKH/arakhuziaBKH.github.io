@@ -73,7 +73,7 @@ ul.navbar.items > li.item.theme-toggle > a > span{
 }
 
 ul.navbar.items > li.item.sideMenu{
-    position: relative;
+    /* position: relative; */
 }
 
 ul.navbar.items > li.item.sideMenu > div#sideMenu{
