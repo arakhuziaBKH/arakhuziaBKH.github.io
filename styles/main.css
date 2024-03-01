@@ -87,6 +87,7 @@ ul.navbar.items > li.item.sideMenu > div#sideMenuContainer{
     align-items: stretch;
     justify-content: space-between;
     padding: 2% 1%;
+    transition: all .3s ease-in-out;
 }
 ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > header{
  width: 100%;

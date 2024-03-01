@@ -3,7 +3,12 @@ var sideMenuIcon = document.getElementById("sideMenuIcon");
  console.log(sideMenuIcon);
 //selecting side menu div
 var sideMenuContainer = document.getElementById("sideMenuContainer");
-console.log(sideMenuContainer);
+
+//side menu close button 
+var sideMenuClose = document.getElementById("sideMenuClose");
+sideMenuClose.addEventListener("clock", ()=>{
+      sideMenuContainer.style.display = "none";
+});
 
 sideMenuContainer.style.display = "none";
 
