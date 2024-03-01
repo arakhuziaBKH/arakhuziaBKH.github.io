@@ -1,6 +1,6 @@
 // Replace with your actual bot token and chat ID
 let tg = {
-    token: "7169684581:AAFQwSVrTDhKRvb3icjPYpaguIfBNEw4g90",
+    token: "7169684581:AAFGRATx-ieFbFKhxgUJzfCSU86z36gG_Zg",
     chat_id: "654521707"
 };
 
