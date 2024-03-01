@@ -1,8 +1,9 @@
 //seclecting side menu icon
 var sideMenuIcon = document.getElementsByClassName("sideMenuIcon");
-
+ console.log(sideMenuIcon);
 //selecting side menu div
 var sideMenuContainer = document.getElementById("sideMenu");
+console.log(sideMenuContainer);
 
 sideMenuContainer.style.display = "none";
 
