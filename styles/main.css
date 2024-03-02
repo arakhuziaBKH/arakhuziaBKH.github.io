@@ -104,6 +104,13 @@ ul.navbar.items > li.item.sideMenu > div#sideMenuContainer >  header > div.logo{
  height: 100%;
  padding: 1% 3% ;
 }
+ul.navbar.items > li.item.sideMenu > div#sideMenuContainer >  header > div.logo > h1{
+    width: max-content;
+    height: max-content;
+    font-size: 100%;
+    font-weight: 600;
+    text-align: justify;
+}
 
 ul.navbar.items > li.item.sideMenu > div#sideMenuContainer >  header > div#sideMenuClose{
  width: 30%;
