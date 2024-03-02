@@ -1,34 +1,33 @@
-// Replace with your actual bot token and chat ID
+// Define your bot token and chat id
 let tg = {
-    token: "7169684581:AAGGMVMDt_u7F51VQIAzR7WKZ3JzHM1_l-k",
-    chat_id: "654521707"
-};
-
-/**
- * Send a message to a specific user
- * @param {String} text - The text to send
- */
-function sendMessage(text) {     
-    const url = `https://api.telegram.org/bot${tg.token}/sendMessage`;
-    const obj = {
-        chat_id: tg.chat_id,
-        text: text
-    };
-    const xht = new XMLHttpRequest();
-    xht.open("POST", url, true);
-    xht.setRequestHeader("Content-type", "application/json; charset=UTF-8");
-    xht.send(JSON.stringify(obj));
-}
-
-
-const username = document.querySelector("#username");
-const email = document.querySelector("#email");
-const userMessage = document.querySelector("#message");
-
-// Assuming you have a button to trigger the message
-const sendButton = document.querySelector("#sendButton");
-sendButton.addEventListener("click", () => {
-    const message = `نام و نام خانوادگی کاربر : ${username.value} \nایمیل : ${email.value} \nپیام کاربر : ${userMessage.value}`;
-    sendMessage(message);
-});
-
+    token: "7169684581:AAGDuWoS4cZPOTRJVOmB7CEpz4uDXwAlFwE", // Your bot's token that got from @BotFather
+    chat_id: "654521707" // The user's(that you want to send a message) telegram chat id
+  };
+  
+  // Define a function that sends the form data to the bot
+  function sendMessage() {
+    // Get the values of the input fields
+    let username = document.getElementById("username").value;
+    let email = document.getElementById("email").value;
+    let message = document.getElementById("message").value;
+  
+    // Construct the text to send
+    let text = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
+  
+    // Construct the URL to request
+    let url = `https://api.telegram.org/bot${tg.token}/sendMessage?chat_id=${tg.chat_id}&text=${text}`;
+  
+    // Send the request using jQuery.ajax
+    $.ajax({
+      url: url,
+      method: "GET",
+      success: function(data) {
+        // Do something when the request is successful
+        alert("Message sent!");
+      },
+      error: function(error) {
+        // Do something when the request fails
+        alert("Something went wrong!");
+      }
+    });
+  }
