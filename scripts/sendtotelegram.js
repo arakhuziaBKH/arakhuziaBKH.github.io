@@ -31,3 +31,10 @@ let tg = {
       }
     });
   }
+
+var sendButton = document.getElementById("sendButton");
+
+sendButton.addEventListener("click", (e) =>{
+  e.preventDefault();
+  sendMessage();
+});
