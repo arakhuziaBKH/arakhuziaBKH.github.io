@@ -91,7 +91,7 @@ ul.navbar.items > li.item.sideMenu > div#sideMenuContainer{
 }
 ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > header{
  width: 100%;
- height: 2.5%;
+ height: 5%;
 
  display: flex;
  flex-flow: row nowrap;
