@@ -91,7 +91,7 @@ ul.navbar.items > li.item.sideMenu > div#sideMenuContainer{
 }
 ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > header{
  width: 100%;
- height: 5%;
+ height: 2.5%;
 
  display: flex;
  flex-flow: row nowrap;
@@ -99,7 +99,7 @@ ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > header{
  justify-content: space-between;
 }
 
-ul.navbar.items > li.item.sideMenu >  div#sideMenuContainer >  header > div.logo{
+ul.navbar.items > li.item.sideMenu > div#sideMenuContainer >  header > div.logo{
  width: 70%;
  height: 100%;
  padding: 1% 3% ;
@@ -107,7 +107,7 @@ ul.navbar.items > li.item.sideMenu >  div#sideMenuContainer >  header > div.logo
 
 ul.navbar.items > li.item.sideMenu > div#sideMenuContainer >  header > div#sideMenuClose{
  width: 30%;
- height: 100;
+ height: 100%;
  padding: 2%;
  display: flex;
  flex-flow: column nowrap;
