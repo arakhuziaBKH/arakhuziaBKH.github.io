@@ -12,7 +12,7 @@ let tg = {
     let message = document.getElementById("message").value;
   
     // Construct the text to send
-    let text = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
+    let text = `نام کاربر : ${username}\nایمیل کاربر : ${email}\nپیام کاربر : ${message}`;
   
     // Construct the URL to request
     let url = `https://api.telegram.org/bot${tg.token}/sendMessage?chat_id=${tg.chat_id}&text=${text}`;
