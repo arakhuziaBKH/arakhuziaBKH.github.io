@@ -145,3 +145,13 @@ ul.navbar.items > li.item.sideMenu > div.sideMenuContainer > main > ul.items.lin
     align-items: stretch;
     justify-content: stretch;
 }
+
+ul.navbar.items > li.item.sideMenu > div.sideMenuContainer > main > ul.items.links > li.item.link{
+    width: 100%;
+    height: calc(100% / 6);
+
+    display: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 5%;
+}
