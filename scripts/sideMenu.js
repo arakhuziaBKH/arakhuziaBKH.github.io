@@ -8,6 +8,7 @@ sideMenuContainer.style.display = "none";
 sideMenuContainer.style.width = "0";
 
 sideMenuIcon.addEventListener("click", (e) =>{
+  e.preventDefault();
   if(sideMenuContainer.style.display == "none"){
     sideMenuContainer.style.display = "flex";
     sideMenuContainer.style.width = "100dvw";
@@ -18,6 +19,7 @@ sideMenuIcon.addEventListener("click", (e) =>{
 });
 
 sideMenuClose.addEventListener("click", (e) => {
+  e.preventDefault();
   if (sideMenuContainer.style.display == "flex") {
     sideMenuContainer.style.display = "none";
     sideMenuContainer.style.width = "0";
