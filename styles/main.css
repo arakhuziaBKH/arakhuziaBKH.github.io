@@ -118,7 +118,7 @@ ul.navbar.items > li.item.sideMenu > div#sideMenuContainer >  header > div#sideM
  padding: 2%;
  display: flex;
  flex-flow: column nowrap;
- align-items: center;
+ align-items: flex-start;
  justify-content: center;
 }
 ul.navbar.items > li.item.sideMenu > div#sideMenuContainer >  header > div#sideMenuClose > img{
