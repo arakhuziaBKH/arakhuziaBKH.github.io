@@ -84,6 +84,7 @@ ul.navbar.items > li.item.sideMenu > div#sideMenuContainer{
     height:100dvh;
     background-color: var(--secondary-background-color);
     flex-flow: column nowrap;
+    grid-row: 5%;
     align-items: stretch;
     justify-content: space-between;
     padding: 1%;
@@ -128,7 +129,7 @@ ul.navbar.items > li.item.sideMenu > div#sideMenuContainer >  header > div#sideM
 
 ul.navbar.items > li.item.sideMenu > div.sideMenuContainer > main{
     width: 100%;
-    height: 80%;
+    height: 70%;
 
     display: flex;
     flex-flow: column nowrap;
@@ -154,4 +155,15 @@ ul.navbar.items > li.item.sideMenu > div.sideMenuContainer > main > ul.items.lin
     align-items: center;
     justify-content: flex-start;
     column-gap: 5%;
+}
+
+
+ul.navbar.items > li.item.sideMenu > div.sideMenuContainer > footer{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
 }
