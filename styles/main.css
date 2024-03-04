@@ -163,9 +163,9 @@ ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > main > ul.items.lin
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     column-gap: 3%;
-    padding: 0 .7%;
+    padding: 0 1%;
 }
 ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > main > ul.items.links > li.item.link > a > img{
     width: 15%;
