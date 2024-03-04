@@ -165,7 +165,7 @@ ul.navbar.items > li.item.sideMenu > div.sideMenuContainer > main > ul.items.lin
     column-gap: 3%;
     padding: 0 2%;
 }
-ul.navbar.items > li.item.sideMenu > div.sideMenuContainer > main > ul.items.links > li.item.link a > img{
+ul.navbar.items > li.item.sideMenu > div.sideMenuContainer > main > ul.items.links > li.item.link > a > img{
     width: 25%;
     height: 100%;
     object-fit: contain;
