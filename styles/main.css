@@ -168,13 +168,12 @@ ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > main > ul.items.lin
     padding: 0 2%;
 }
 ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > main > ul.items.links > li.item.link > a > img{
-    width: 25%;
-    height: 100%;
+    width: 15%;
     object-fit: contain;
 }
 ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > main > ul.items.links > li.item.link > a > span{
     width: 72%;
-    height: 100%;
+    height: max-content;
 }
 
 
