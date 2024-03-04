@@ -174,6 +174,7 @@ ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > main > ul.items.lin
 ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > main > ul.items.links > li.item.link > a > span{
     width: 72%;
     height: max-content;
+    color: var(--primary-orange);
 }
 
 
