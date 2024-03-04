@@ -144,7 +144,7 @@ ul.navbar.items > li.item.sideMenu > div.sideMenuContainer > main > ul.items.lin
     display: flex;
     flex-flow: column nowrap;
     align-items: stretch;
-    justify-content: stretch;
+    justify-content: space-between;
 }
 
 ul.navbar.items > li.item.sideMenu > div.sideMenuContainer > main > ul.items.links > li.item.link{
