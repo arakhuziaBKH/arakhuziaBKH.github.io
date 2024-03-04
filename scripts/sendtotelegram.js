@@ -12,13 +12,25 @@ let tg = {
     let message = document.getElementById("message").value;
 
     if(username == ""){
-      document.alert("لطفا نام و نام خانوادگی خود را وارد نمائید!");
+      Swal.fire({
+        icon: "warning",
+        title: "اوووف سسس",
+        text: "فیلد نام و نام خانوادگی نمی تواند خالی باشد "
+      });
     }
     if(email == ""){
-      alert();
+      Swal.fire({
+        icon: "warning",
+        title: "اوووف سسس ",
+        text: "لطفا ایمیل را به درستی وارد نمائید!"
+      });
     }
     if(message == "" && message.length <= 20){
-        alert("کاربر گرامی پیام شما باید بیشتر از 20 کارکتر باشد !");
+      Swal.fire({
+        icon: "warning",
+        title: "اوووف سسس ",
+        text: "فیلد پیام نمی تواند خالی باشد . پیام شما نمی تواند کمتر از 20 کاراکتر باشد!"
+      });
     }
   
     // Construct the text to send
@@ -33,11 +45,25 @@ let tg = {
       method: "GET",
       success: function(data) {
         // Do something when the request is successful
-        alert("با تشکر از ، پیام شما با موفقیت ارسال شد ");
+        Swal.fire({
+          icon: "success",
+          title: "با تشکر از شما ",
+          text: "پیام شما با موفقیت ارسال شد"
+        });
       },
       error: function(error) {
         // Do something when the request fails
-        alert("متاسفانه پیام شما ارسال نشد !");
+        Swal.fire({
+          icon: "danger",
+          title: "مشکل اتصال",
+          text: "از روشن بودن خود اطمینام حاصل کنید!"
+        });
+
+        Swal.fire({
+          icon: "danger",
+          title: "متاسفم",
+          text: "مشکلی پیش آمده است . پیام شما ارسال نشد "
+        });
       }
     });
   }
