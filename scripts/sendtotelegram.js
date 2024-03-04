@@ -23,11 +23,11 @@ let tg = {
       method: "GET",
       success: function(data) {
         // Do something when the request is successful
-        alert("Message sent!");
+        alert("با تشکر از ، پیام شما با موفقیت ارسال شد ");
       },
       error: function(error) {
         // Do something when the request fails
-        alert("Something went wrong!");
+        alert("متاسفانه پیام شما ارسال نشد !");
       }
     });
   }
