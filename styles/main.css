@@ -152,6 +152,7 @@ ul.navbar.items > li.item.sideMenu > div.sideMenuContainer > main > ul.items.lin
     height: calc(100% / 6);
 
     display: column nowrap;
+    flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid grey;
