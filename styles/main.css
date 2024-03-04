@@ -156,7 +156,7 @@ ul.navbar.items > li.item.sideMenu > div.sideMenuContainer > main > ul.items.lin
     justify-content: center;
     border-bottom: 1px solid grey;
 }
-ul.navbar.items > li.item.sideMenu > div.sideMenuContainer > main > ul.items.links > li.item.link >{
+ul.navbar.items > li.item.sideMenu > div.sideMenuContainer > main > ul.items.links > li.item.link > a{
     width: 100%;
     height: 90%;
     display: flex;
@@ -164,6 +164,11 @@ ul.navbar.items > li.item.sideMenu > div.sideMenuContainer > main > ul.items.lin
     justify-content: center;
     column-gap: 3%;
     padding: 0 2%;
+}
+ul.navbar.items > li.item.sideMenu > div.sideMenuContainer > main > ul.items.links > li.item.link a > img{
+    width: 25%;
+    height: 100%;
+    object-fit: contain;
 }
 
 
