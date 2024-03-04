@@ -10,6 +10,16 @@ let tg = {
     let username = document.getElementById("username").value;
     let email = document.getElementById("email").value;
     let message = document.getElementById("message").value;
+
+    if(username == ""){
+      document.alert("لطفا نام و نام خانوادگی خود را وارد نمائید!");
+    }
+    if(email == ""){
+      alert();
+    }
+    if(message == "" && message.length <= 20){
+        alert("کاربر گرامی پیام شما باید بیشتر از 20 کارکتر باشد !");
+    }
   
     // Construct the text to send
     let text = `نام کاربر : ${username}<br>   ایمیل کاربر : ${email}<br>   پیام کاربر : ${message}`;
