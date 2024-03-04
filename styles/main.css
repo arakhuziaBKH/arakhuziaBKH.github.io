@@ -164,11 +164,11 @@ ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > main > ul.items.lin
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
-    column-gap: 3%;
+    column-gap: 1.5%;
     padding: 0 1%;
 }
 ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > main > ul.items.links > li.item.link > a > img{
-    width: 15%;
+    width: 7.5%;
     object-fit: contain;
 }
 ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > main > ul.items.links > li.item.link > a > span{
