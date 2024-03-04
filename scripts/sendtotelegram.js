@@ -54,13 +54,13 @@ let tg = {
       error: function(error) {
         // Do something when the request fails
         Swal.fire({
-          icon: "danger",
+          icon: "error",
           title: "مشکل اتصال",
           text: "از روشن بودن خود اطمینام حاصل کنید!"
         });
 
         Swal.fire({
-          icon: "danger",
+          icon: "error",
           title: "متاسفم",
           text: "مشکلی پیش آمده است . پیام شما ارسال نشد "
         });
