@@ -165,7 +165,7 @@ ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > main > ul.items.lin
     align-items: center;
     justify-content: center;
     column-gap: 3%;
-    padding: 0 2%;
+    padding: 0 .7%;
 }
 ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > main > ul.items.links > li.item.link > a > img{
     width: 15%;
