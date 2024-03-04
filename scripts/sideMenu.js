@@ -1,4 +1,5 @@
-var sideMenuIcon,sideMenuContainer,sideMenuClose;
+(function (){
+  var sideMenuIcon,sideMenuContainer,sideMenuClose;
 
 sideMenuIcon = document.getElementById("sideMenuIcon");
 sideMenuContainer = document.getElementById("sideMenuContainer");
@@ -25,3 +26,5 @@ sideMenuClose.addEventListener("click", (e) => {
     sideMenuContainer.style.width = "0";
   }
 });
+
+})();
