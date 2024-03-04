@@ -124,7 +124,7 @@ ul.navbar.items > li.item.sideMenu > div#sideMenuContainer >  header > div#sideM
 }
 ul.navbar.items > li.item.sideMenu > div#sideMenuContainer >  header > div#sideMenuClose > img{
     object-fit: contain;
-    width: 40%;
+    width: 60%;
 }
 
 ul.navbar.items > li.item.sideMenu > div.sideMenuContainer > main{
