@@ -111,6 +111,11 @@ section.contactMe > div.contact-information > div.mobile > form > fieldset.texta
     height: 30dvh;
     border-radius: .5rem;
 }
+section.contactMe > div.contact-information > div.mobile > form > fieldset.textarea-message > textarea{
+    width: 100%;
+    height: 100%;
+    padding: 1% 2%;
+}
 
 section.contactMe > div.contact-information > div.mobile > form > button#sendButton{
     width: 60%;
