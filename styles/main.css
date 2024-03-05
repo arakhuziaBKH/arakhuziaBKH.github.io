@@ -203,8 +203,8 @@ body > div.wrapper > footer{
     justify-content: center;
     padding: 2% 4%;
 }
-body > div.wrapper > footer > p{
-    width: max-content;
-    height: max-content;
-    text-align: center;
-}
+    body > div.wrapper > footer > p{
+        width: max-content;
+        height: max-content;
+        text-align: center;
+    }
