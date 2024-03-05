@@ -98,6 +98,7 @@ section.contactMe > div.contact-information > div.mobile > form > fieldset > inp
     border-radius: 1.5rem;
     outline: none;
     border: none;
+    outline: 1px solid var(--secondary-background-color);
     background-color: var(--secondary-background-color);
 }
 
