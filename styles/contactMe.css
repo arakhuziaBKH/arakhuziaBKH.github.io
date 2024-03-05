@@ -83,12 +83,12 @@ section.contactMe > div.contact-information > div.mobile > form{
 }
 section.contactMe > div.contact-information > div.mobile > form > fieldset{
     width: 100%;
-    height: calc(100% / 3 - 1%);
+    height: 5dvh;
     display:flex;
     flex-flow: column nowrap;
     align-items: stretch;
     justify-content: space-between;
-    row-gap: 3%;
+    row-gap: 1dvh;
     outline: none;
     border: none;
 }
