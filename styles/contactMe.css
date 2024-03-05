@@ -108,6 +108,7 @@ section.contactMe > div.contact-information > div.mobile > form > fieldset > inp
 
 section.contactMe > div.contact-information > div.mobile > form > fieldset.textarea-message{
     height: 50dvh;
+    border-radius: .5rem;
 }
 
 section.contactMe > div.contact-information > div.mobile > form > button#sendButton{
