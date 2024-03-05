@@ -101,6 +101,7 @@ section.contactMe > div.contact-information > div.mobile > form > fieldset > inp
 }
 section.contactMe > div.contact-information > div.mobile > form > fieldset :is(input, textarea){
     width: 100%;
+    min-height: 3dvh;
     background-color: var(--secondary-background-color);
     border: none;
     outline: 1px solid #ddd;
