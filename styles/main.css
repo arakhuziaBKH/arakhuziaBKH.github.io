@@ -149,7 +149,7 @@ ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > main > ul.items.lin
 
 ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > main > ul.items.links > li.item.link{
     width: 100%;
-    height: calc(100% / 11);
+    height: calc(100% / 11 );
 
     display: flex;
     flex-flow: column nowrap;
@@ -186,4 +186,23 @@ ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > footer{
     align-items: center;
     justify-content: space-between;
     padding: 2%;
+}
+
+
+
+
+
+
+
+body > div.wrapper > footer{
+    width: 100%;
+    height: 15dvh;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+body > div.wrapper > footer > p{
+    width: max-content;
+    height: max-content;
 }
