@@ -113,7 +113,7 @@ section.contactMe > div.contact-information > div.mobile > form > fieldset.texta
 
 section.contactMe > div.contact-information > div.mobile > form > button#sendButton{
     width: 60%;
-    min-height: 4dvh;
+    min-height: 8dvh;
     background-color: var(--primary-orange);
     margin: 2% auto;
     border-radius: .5rem;
