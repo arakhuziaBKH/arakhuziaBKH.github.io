@@ -201,8 +201,10 @@ body > div.wrapper > footer{
     flex-flow: row nowrap;
     align-items: center;
     justify-content: center;
+    padding: 2% 4%;
 }
 body > div.wrapper > footer > p{
     width: max-content;
     height: max-content;
+    text-align: center;
 }
