@@ -94,7 +94,7 @@ section.contactMe > div.contact-information > div.mobile > form > fieldset{
 section.contactMe > div.contact-information > div.mobile > form > fieldset > label{
     width: 100%;
     height: max-content;
-    padding: 1dvh 0;
+    padding: .3dvh 0;
 }
 section.contactMe > div.contact-information > div.mobile > form > fieldset > input{
     width: 100%;
