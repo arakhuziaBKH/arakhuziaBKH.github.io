@@ -35,13 +35,13 @@ section.contactMe > div.socials > a > img{
 
 section.contactMe > div.contact-information{
     width: 100%;
-    min-height: 50dvh;
+    min-height: 60dvh;
     display: flex;
     flex-flow: column nowrap;
     align-items: stretch;
-    justify-content: space-evenly;
+    justify-content: space-between;
     row-gap: 1dvh;
-    padding: 2%;
+    padding: 1%;
 }
 section.contactMe > div.contact-information > div{
     width: 100%;
@@ -73,6 +73,7 @@ section.contactMe > div.contact-information > div.mobile > form{
     height: 100%;
     display: flex;
     flex-flow: column nowrap;
+    justify-content: space-between;
     align-items: stretch;
     background-color: var(--secondary-background-color);
     border-radius: 1.5rem;
