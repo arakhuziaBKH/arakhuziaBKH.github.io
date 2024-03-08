@@ -196,7 +196,7 @@ ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > footer{
 
 body > div.wrapper > footer{
     width: 100%;
-    height: 4dvh;
+    min-height: 10dvh;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
