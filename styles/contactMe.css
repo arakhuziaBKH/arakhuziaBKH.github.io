@@ -86,7 +86,7 @@ section.contactMe > div.contact-information > div.mobile > form > fieldset{
     display:flex;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: space-baetween;
+    justify-content: space-between;
     row-gap: 5%;
     outline: none;
     border: none;
