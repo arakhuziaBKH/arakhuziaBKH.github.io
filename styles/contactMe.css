@@ -92,7 +92,7 @@ section.contactMe > div.contact-information > div.mobile > form > fieldset > inp
 }
 
 section.contactMe > div.contact-information > div.mobile > form > fieldset.textarea-message{
-    height: 20dvh;
+    height: calc(100% / 2);
     border-radius: .5rem;
 }
 section.contactMe > div.contact-information > div.mobile > form > fieldset.textarea-message > textarea{
@@ -103,7 +103,7 @@ section.contactMe > div.contact-information > div.mobile > form > fieldset.texta
 
 section.contactMe > div.contact-information > div.mobile > form > button#sendButton{
     width: 60%;
-    height: 10dvh;
+    height:calc(100% / 3);
     background-color: var(--primary-orange);
     margin: 2% auto;
     border-radius: .5rem;
