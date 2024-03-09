@@ -20,6 +20,11 @@ section.contactMe > div.socials{
     border-bottom: 2px solid var(--border-color);
 }
 
+section.contactMe > div.socials > h4{
+    width: 100%;
+    height: max-content;
+}
+
 section.contactMe > div.socials > a{
     width: calc(100% / 4 - 2%);
     height: calc(100% / 2 - 2%);
