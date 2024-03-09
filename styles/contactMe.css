@@ -97,7 +97,7 @@ section.contactMe > div.contact-information > div.mobile > form > fieldset > inp
 }
 
 section.contactMe > div.contact-information > div.mobile > form > fieldset.textarea-message{
-    height: calc(100% / 2);
+    height: calc(100% / 3);
     border-radius: .5rem;
 }
 section.contactMe > div.contact-information > div.mobile > form > fieldset.textarea-message > textarea{
