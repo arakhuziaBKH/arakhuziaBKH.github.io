@@ -85,6 +85,7 @@ section.contactMe > div.contact-information > div.mobile > form > fieldset > lab
     width: 100%;
     height: max-content;
     padding: .3dvh 0;
+    font-size: 80%;
 }
 section.contactMe > div.contact-information > div.mobile > form > fieldset > input{
     width: 100%;
