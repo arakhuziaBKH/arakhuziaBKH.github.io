@@ -40,7 +40,7 @@ section.contactMe > div.socials > a > img{
 
 section.contactMe > div.contact-information{
     width: 100%;
-    min-height: 60dvh;
+    min-height: 80dvh;
     display: flex;
     flex-flow: column nowrap;
     align-items: stretch;
