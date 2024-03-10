@@ -22,7 +22,7 @@ section.courses > div.course{
     padding-block: 2%;
 }
 section.courses > div.course > picture{
-    width: 90%;
+    width: 100%;
     height: 50%;
     display: flex;
     font-family: column no wrap;
@@ -34,6 +34,8 @@ section.courses > div.course > picture{
 section.courses > div.course > picture > img{
     object-fit: contain;
     width: 100%;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
 }
 section.courses > div.course > h2.card-title{
     width: 100%;
