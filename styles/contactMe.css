@@ -51,7 +51,7 @@ section.contactMe > div.contact-information{
 
 section.contactMe > div.contact-information > div.mobile{
     width: 100%;
-    height: 100%;
+    height: 80dvh;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -60,7 +60,7 @@ section.contactMe > div.contact-information > div.mobile{
 }
 section.contactMe > div.contact-information > div.mobile > form{
     width: 100%;
-    height: 100%;
+    height: 80dvh;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
