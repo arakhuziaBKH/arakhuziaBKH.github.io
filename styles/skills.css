@@ -5,7 +5,7 @@ section.skills{
     flex-flow: column nowrap;
     align-items: stretch;
     justify-content: space-between;
-    row-gap: 5dvh;
+    row-gap: 1dvh;
     padding: 2% 2% ;
 }
 
@@ -15,6 +15,7 @@ section.skills > div.description{
     padding: 2%;
     border-radius: 1.5rem;
     background-color: var(--secondary-background-color);
+    margin-block: 2dvh 0;
 }
 section.skills > div.description > p{
     width: 100%;
