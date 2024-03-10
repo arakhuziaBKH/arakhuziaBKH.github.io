@@ -1,5 +1,6 @@
 {
     "files.autoSave": "onFocusChange",
     "editor.fontSize": 12,
-    "editor.tabSize": 6
+    "editor.tabSize": 6,
+    "liveServer.settings.multiRootWorkspaceName": "arakhuziaBKH.github.io"
 }
