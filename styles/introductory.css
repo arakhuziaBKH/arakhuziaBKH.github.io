@@ -27,6 +27,8 @@ section.introductory > div.description :is(h2, h3, p){
     text-align: justify;
     padding: 1%;
     line-height: 2  rem;
+    background-color: var(--primary-orange);
+    color: #def;
 }
 
 
