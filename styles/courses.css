@@ -29,12 +29,12 @@ section.courses > div.course > picture{
     justify-content: center;
     border-radius: inherit;
     overflow: hidden;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
 }
 section.courses > div.course > picture > img{
     object-fit: contain;
     width: 100%;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
 }
 section.courses > div.course > h2.card-title{
     width: 100%;
