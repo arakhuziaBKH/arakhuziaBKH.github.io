@@ -1,17 +1,17 @@
 section.introductory{
     width: 100%;
-    min-height: 60dvh;
+    min-height: 90dvh;
     display: flex;
     flex-flow: column nowrap;
-    align-items: stretch;
+    align-items: center;
     justify-content: space-between;
     row-gap: 5%;
     padding : 10% 0 0 0;
     margin: 9.5dvh 0 0 0
 }
 section.introductory > div.description{
- width: 98%;
- height: 70dvh;
+ width: 100%;
+ height: 70%;
  display: flex;
  flex-flow: column nowrap;
  align-items: center;
@@ -21,14 +21,27 @@ section.introductory > div.description{
  position: relative;
 }
 
+section.introductory > div.description > h3{
+    padding: 2dvh 2dvw;
+    font-size:3rem;
+    height: max-content;
+    text-align: justify;
+    color: var(--primary-orange);
+    font-weight: bold;
+    text-shadow: .5px .5px 10px var(--primary-orange);
+}
+section.introductory > div.description > h2{
+    margin: 2dvh 1dvw;
+    text-align: justify;
+    font-size: 4rem;
+}
 section.introductory > div.description :is(h2, h3, p){
-    width: 100%;
+    width: 98%;
     height: max-content;
     text-align: justify;
     padding: 1%;
-    line-height: 2  rem;
-    background-color: var(--primary-orange);
-    color: #def;
+    line-height: 5rem;
+    text-align: justify;
 }
 
 
