@@ -17,6 +17,7 @@ let tg = {
         title: "اوووف سسس",
         text: "فیلد نام و نام خانوادگی نمی تواند خالی باشد "
       });
+      return false;
     }
     if(email == ""){
       Swal.fire({
@@ -24,6 +25,7 @@ let tg = {
         title: "اوووف سسس ",
         text: "لطفا ایمیل را به درستی وارد نمائید!"
       });
+      return false;
     }
     if(message == "" && message.length <= 20){
       Swal.fire({
@@ -31,6 +33,7 @@ let tg = {
         title: "اوووف سسس ",
         text: "فیلد پیام نمی تواند خالی باشد . پیام شما نمی تواند کمتر از 20 کاراکتر باشد!"
       });
+      return false;
     }
   
     // Construct the text to send
