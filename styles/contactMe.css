@@ -6,7 +6,7 @@ section.contactMe{
     align-items: center;
     flex-flow: column nowrap;
     justify-content: space-between;
-    row-gap: 1dvh;
+    row-gap: 2dvh;
 }
 
 section.contactMe > div.socials{
@@ -45,7 +45,7 @@ section.contactMe > div.contact-information{
     flex-flow: column nowrap;
     align-items: stretch;
     justify-content: space-between;
-    row-gap: 1dvh;
+    row-gap: 2dvh;
     padding: 1%;
 }
 
