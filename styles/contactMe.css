@@ -98,7 +98,7 @@ section.contactMe > div.contact-information > div.mobile > form > fieldset > inp
 }
 section.contactMe > div.contact-information > div.mobile > form > fieldset > input:focus{
     outline-color: var(--primary-orange);
-    outline-width: 2px;
+    outline-width: 1px;
     box-shadow: .1px .1px 10px 1px var(--primary-orange);
 }
 
