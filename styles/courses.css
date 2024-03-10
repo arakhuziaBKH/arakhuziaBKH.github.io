@@ -18,9 +18,8 @@ section.courses > div.course{
     justify-content: space-between;
     row-gap: 2dvh;
     border-radius: 1.5rem;
-    border: 2px solid var(--primary-blue);
+    background-color: var(--primary-orange);
     padding-block: 2%;
-    margin: 0 auto;
 }
 section.courses > div.course > picture{
     width: 90%;
@@ -53,5 +52,5 @@ section.courses > div.course > h2.card-title > a{
     align-items: center;
     justify-content: stretch;
     text-align: justify;
-    color: var(--primary-blue);
+    color: #ddf;
 }
