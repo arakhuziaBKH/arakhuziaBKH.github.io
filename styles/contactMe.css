@@ -98,6 +98,7 @@ section.contactMe > div.contact-information > div.mobile > form > fieldset > inp
 }
 section.contactMe > div.contact-information > div.mobile > form > fieldset > input:focus{
     outline-color: var(--primary-orange);
+    outli
 }
 
 section.contactMe > div.contact-information > div.mobile > form > fieldset.textarea-message{
