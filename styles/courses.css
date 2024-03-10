@@ -19,7 +19,6 @@ section.courses > div.course{
     row-gap: 2dvh;
     border-radius: 1.5rem;
     background-color: var(--primary-orange);
-    padding-block: 2%;
 }
 section.courses > div.course > picture{
     width: 100%;
