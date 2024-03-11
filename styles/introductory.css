@@ -22,10 +22,18 @@ section.introductory > div.description{
 }
 
 section.introductory > div.description > h3{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: .5rem;
+    padding: 1rem; 
     padding: 2dvh 2dvw;
-    font-size:3rem;
+    font-size: 2rem;
     height: max-content;
-    text-align: justify;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
     color: var(--primary-orange);
     background-color: var(--secondary-background-color);
     font-weight: bold;
@@ -43,6 +51,7 @@ section.introductory > div.description :is(h2, h3, p){
     padding: 1%;
     line-height: 5rem;
     text-align: justify;
+    word-spacing: .7rem;
 }
 
 
@@ -88,11 +97,12 @@ section.introductory > a.projects-button {
 }
 
 section.introductory > picture{
-    width: 100%;
+    width: 96%;
     height: 70dvh;
+    margin-top: 5rem;
     border-radius: .5rem;
     border-bottom-left-radius: 25%;
-    border-top-right-radius: 12.5%;
+    border-top-right-radius: 25%;
     display: flex;
     flex-flow: column nowrap;
     align-items: flex-end;
