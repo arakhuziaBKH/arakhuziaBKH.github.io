@@ -27,6 +27,7 @@ section.introductory > div.description > h3{
     height: max-content;
     text-align: justify;
     color: var(--primary-orange);
+    background-color: var(--secondary-background-color);
     font-weight: bold;
     text-shadow: .5px .5px 10px var(--primary-orange);
 }
