@@ -79,7 +79,7 @@ ul.navbar.items > li.item.sideMenu{
 ul.navbar.items > li.item.sideMenu > div#sideMenuContainer{
     position: fixed;
     top:0;
-    right:0;
+    right:0%;
     width: 100dvw;
     height:100dvh;
     background-color: var(--secondary-background-color);
@@ -164,11 +164,11 @@ ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > main > ul.items.lin
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
-    column-gap: 1.5%;
+    column-gap: .5%;
     padding: 0 1%;
 }
 ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > main > ul.items.links > li.item.link > a > img{
-    width: 7.5%;
+    width: 9.5%;
     object-fit: contain;
 }
 ul.navbar.items > li.item.sideMenu > div#sideMenuContainer > main > ul.items.links > li.item.link > a > span{
