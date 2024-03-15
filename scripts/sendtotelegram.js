@@ -1,3 +1,4 @@
+window.addEventListener("DOMContentLoaded", ()=>{
 // Define your bot token and chat id
 let tg = {
     token: "7169684581:AAGDuWoS4cZPOTRJVOmB7CEpz4uDXwAlFwE", // Your bot's token that got from @BotFather
@@ -76,4 +77,10 @@ var sendButton = document.getElementById("sendButton");
 sendButton.addEventListener("click", (e) =>{
   e.preventDefault();
   sendMessage();
+});
+
+
+
+
+
 });
