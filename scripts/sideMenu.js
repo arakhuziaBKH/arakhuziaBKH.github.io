@@ -1,30 +1,15 @@
-(function (){
-  var sideMenuIcon,sideMenuContainer,sideMenuClose;
+(function () {
+  const sideMenuIcon = document.getElementById("sideMenuIcon");
+  const sideMenuClose = document.getElementById("sideMenuClose");
+  const body = document.body;
 
-sideMenuIcon = document.getElementById("sideMenuIcon");
-sideMenuContainer = document.getElementById("sideMenuContainer");
-sideMenuClose = document.getElementById("sideMenuClose");
+  sideMenuIcon.addEventListener("click", (e) => {
+    e.preventDefault();
+    body.classList.add("side-menu-open");
+  });
 
-sideMenuContainer.style.display = "none";
-sideMenuContainer.style.width = "0";
-
-sideMenuIcon.addEventListener("click", (e) =>{
-  e.preventDefault();
-  if(sideMenuContainer.style.display == "none"){
-    sideMenuContainer.style.display = "flex";
-    sideMenuContainer.style.width = "100dvw";
-  }else{
-    sideMenuContainer.style.display = "none"
-    sideMenuContainer.style.width = "0"
-  }
-});
-
-sideMenuClose.addEventListener("click", (e) => {
-  e.preventDefault();
-  if (sideMenuContainer.style.display == "flex") {
-    sideMenuContainer.style.display = "none";
-    sideMenuContainer.style.width = "0";
-  }
-});
-
+  sideMenuClose.addEventListener("click", (e) => {
+    e.preventDefault();
+    body.classList.remove("side-menu-open");
+  });
 })();
