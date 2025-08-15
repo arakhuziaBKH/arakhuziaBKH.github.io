@@ -46,7 +46,7 @@ var sections = document.querySelectorAll("section");
     
     // adding event listener to the theme button
     themeToggle.addEventListener("click", function(e){
-        e.preventDefault;
+        e.preventDefault();
         document.body.classList.toggle("light");
     });
 
