@@ -1,7 +1,5 @@
 <?php
-// It is recommended to move this to a more secure location, such as an environment variable or a configuration file that is not publicly accessible.
-$bot_token = '7169684581:AAGDuWoS4cZPOTRJVOmB7CEpz4uDXwAlFwE';
-$chat_id = '654521707';
+require_once 'config.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = filter_var($_POST['username'], FILTER_SANITIZE_STRING);
